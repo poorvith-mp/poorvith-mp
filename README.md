@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- ░░ HEADER ░░ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,4,2&height=210&section=header&text=Poorvith%M%P&fontSize=65&fontColor=fbbf24&animation=fadeIn&fontAlignY=48&desc=%E2%96%93%20Cypher%20%E2%96%93%20Privacy-First%20Dev&descColor=fcd34d&descSize=16&descAlignY=68" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,4,2&height=210&section=header&text=Poorvith%20M%20P&fontSize=60&fontColor=fbbf24&animation=fadeIn&fontAlignY=48&desc=Indie%20Builder%20%E2%96%93%20Privacy-First%20Dev&descColor=fcd34d&descSize=16&descAlignY=68" width="100%"/>
 
 <!-- ░░ TYPING ░░ -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2600&pause=900&color=FB923C&center=true&vCenter=true&width=600&lines=Aspiring+Developer+%7C+Indie+Builder+%E2%9A%A1;HTML+%C2%B7+CSS+%C2%B7+Python+Developer;Gen+AI+%26+AI+Tools+Enthusiast+%E2%9C%A8;Building+Privacy-First+Tools+%F0%9F%94%92;Founder+%E2%96%93+CYPHER" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2600&pause=900&color=FB923C&center=true&vCenter=true&width=600&lines=Aspiring+Developer+%7C+Indie+Builder+%E2%9A%A1;HTML+%C2%B7+CSS+%C2%B7+Python+Developer;Gen+AI+%26+AI+Tools+Enthusiast+%E2%9C%A8;Building+Privacy-First+Tools+%F0%9F%94%92;Shipping+Digital+Products+%F0%9F%9A%80" alt="Typing SVG"/>
 
 <br/>
 
@@ -19,7 +19,7 @@
 
 <!-- ░░░░░░░░░ ABOUT + STACK ░░░░░░░░░ -->
 
-<table>
+<table width="100%">
 <tr>
 
 <td valign="top" width="52%">
@@ -28,13 +28,13 @@
 
 ```
 ╔══════════════════════════════════════╗
-║   ▓ CYPHER  //  AGENT PROFILE        ║
+║   ▓ PROFILE  //  AGENT CARD          ║
 ╠══════════════════════════════════════╣
 ║                                      ║
 ║  CODENAME  ·  prvthmp                ║
 ║  ROLE      ·  Indie Builder          ║
 ║  MISSION   ·  Privacy-First Dev      ║
-║  VISION    ·  ▓ CYPHER               ║
+║  FOCUS     ·  Web + AI Products      ║
 ║  METHOD    ·  Learn by Shipping ⚡   ║
 ║  STATUS    ·  🟢  Actively Building  ║
 ║                                      ║
@@ -81,10 +81,66 @@ devops:
 
 <div align="center">
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/prvthmp)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/prvthmp)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prvthmp)
 [![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/prvthmp)
+
+</div>
+
+<br/>
+
+---
+
+<!-- ░░░░░░░░░ PROJECTS ░░░░░░░░░ -->
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top" align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=2500&color=F97316&center=true&vCenter=true&width=250&lines=Portfolio+Site+%F0%9F%92%BB" alt="Portfolio"/>
+
+**Personal Portfolio**
+
+Vite + Vanilla JS site styled with Tailwind CSS v4, powered by Supabase, deployed on Vercel.
+
+`Vite` `Tailwind` `Supabase`
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prvthmpcypher/prvthmpportfolio)
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=2500&color=EC4899&center=true&vCenter=true&width=250&lines=Vibe+Coding+Kit+%E2%9C%A8" alt="Vibe Coding Kit"/>
+
+**The Vibe Coding Kit**
+
+60-page eBook teaching a 6-document system for AI-assisted coding, with ranked tool comparisons and prompt templates.
+
+`eBook` `AI Coding` `Gumroad`
+
+[![Gumroad](https://img.shields.io/badge/Get%20it-36a9ae?style=for-the-badge&logo=gumroad&logoColor=white)](https://gumroad.com/prvthmp)
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=2500&color=FBBF24&center=true&vCenter=true&width=250&lines=Notion+Templates+%F0%9F%93%92" alt="Notion Templates"/>
+
+**Notion Templates**
+
+Curated, fast-selling Notion templates built for productivity and organization, sold on Gumroad.
+
+`Notion` `Templates` `Digital Products`
+
+[![Gumroad](https://img.shields.io/badge/Get%20it-36a9ae?style=for-the-badge&logo=gumroad&logoColor=white)](https://gumroad.com/prvthmp)
+
+</td>
+</tr>
+</table>
+
+<sub>💡 Tip: update the Gumroad links above with your actual product URLs.</sub>
 
 </div>
 
@@ -174,31 +230,13 @@ devops:
 
 ---
 
-<!-- ░░░░░░░░░ SUPPORT ░░░░░░░░░ -->
-
-## ☕ Support the Build
-
-<div align="center">
-
-A coffee keeps the cypher running 🔒
-
-<br/>
-
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/prvthmp)
-
-</div>
-
-<br/>
-
 <!-- ░░ FOOTER ░░ -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&pause=3000&color=f97316&center=true&vCenter=true&width=380&lines=%E2%96%93+Built+with+intent.+Shipped+with+purpose." alt="Footer"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&pause=3000&color=f97316&center=true&vCenter=true&width=380&lines=Built+with+intent.+Shipped+with+purpose." alt="Footer"/>
 
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,4,2&height=110&section=footer" width="100%"/>
 
 </div>
-
-<!-- ▓ Cypher — Privacy by default. -->
