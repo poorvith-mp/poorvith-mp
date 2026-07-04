@@ -51,8 +51,9 @@
 # capabilities.yml
 
 code:
-  - HTML & CSS
+  - HTML
   - Python
+  - Git
 
 ai:
   - Generative AI
@@ -90,63 +91,6 @@ devops:
 
 ---
 
-<!-- ░░░░░░░░░ PROJECTS ░░░░░░░░░ -->
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-<table width="100%">
-<tr>
-<td width="33%" valign="top" align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=2500&color=F97316&center=true&vCenter=true&width=250&lines=Portfolio+Site+%F0%9F%92%BB" alt="Portfolio"/>
-
-**Personal Portfolio**
-
-Vite + Vanilla JS site styled with Tailwind CSS v4, powered by Supabase, deployed on Vercel.
-
-`Vite` `Tailwind` `Supabase`
-
-[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prvthmpcypher/prvthmpportfolio)
-
-</td>
-<td width="33%" valign="top" align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=2500&color=EC4899&center=true&vCenter=true&width=250&lines=Vibe+Coding+Kit+%E2%9C%A8" alt="Vibe Coding Kit"/>
-
-**The Vibe Coding Kit**
-
-60-page eBook teaching a 6-document system for AI-assisted coding, with ranked tool comparisons and prompt templates.
-
-`eBook` `AI Coding` `Gumroad`
-
-[![Gumroad](https://img.shields.io/badge/Get%20it-36a9ae?style=for-the-badge&logo=gumroad&logoColor=white)](https://gumroad.com/prvthmp)
-
-</td>
-<td width="33%" valign="top" align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=2500&color=FBBF24&center=true&vCenter=true&width=250&lines=Notion+Templates+%F0%9F%93%92" alt="Notion Templates"/>
-
-**Notion Templates**
-
-Curated, fast-selling Notion templates built for productivity and organization, sold on Gumroad.
-
-`Notion` `Templates` `Digital Products`
-
-[![Gumroad](https://img.shields.io/badge/Get%20it-36a9ae?style=for-the-badge&logo=gumroad&logoColor=white)](https://gumroad.com/prvthmp)
-
-</td>
-</tr>
-</table>
-
-<sub>💡 Tip: update the Gumroad links above with your actual product URLs.</sub>
-
-</div>
-
-<br/>
-
----
 
 <!-- ░░░░░░░░░ TECH STACK ░░░░░░░░░ -->
 
@@ -161,7 +105,6 @@ Curated, fast-selling Notion templates built for productivity and organization, 
 <br/><br/>
 
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
