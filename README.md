@@ -82,8 +82,8 @@ devops:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prvthmp)
-[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/prvthmp)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/poorvithmp)
+[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/poorvithmp07)
 
 </div>
 
@@ -173,7 +173,45 @@ devops:
 
 ---
 
-<!-- ░░ FOOTER ░░ -->
+<!-- ░░░░░░░░░ PROJECTS ░░░░░░░░░ -->
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+### 🌐 Web & Tools
+
+| Project | Description |
+|---|---|
+| 🧼 **[AiScrubber](https://github.com/prvthmpcypher/aiscrubber)** | Client-side privacy scrubber — sanitizes text before it reaches any LLM |
+| 🐝 **[PaperHive](https://github.com/prvthmpcypher/paperhive)** | Offline-first PDF toolkit — unlock, edit, convert, clean, no uploads |
+| 🔐 **[SafeGen](https://github.com/prvthmpcypher/safegen)** | A password generator that never leaves your browser |
+| 🧩 **[PortfolioGen](https://github.com/prvthmpcypher/portfoliogen)** | Browser-only portfolio generator — fill, download, own the files |
+| 🎨 **[Design Systems](https://github.com/prvthmpcypher/design-systems)** | A collection of production-ready React UI templates |
+
+### 📱 Android
+
+| Project | Description |
+|---|---|
+| 📄 **[CypherPDF](https://github.com/prvthmpcypher/cypherpdf)** | Clutter-free PDF reader — no ads, no accounts, no tracking |
+| 📚 **[CypherDocs](https://github.com/prvthmpcypher/CypherDocs)** | Companion reader for every file type PDFs don't cover |
+
+### 📚 Learning in Public
+
+| Project | Description |
+|---|---|
+| 🐍 **[Python Mastery](https://github.com/prvthmpcypher/python-mastery)** | Structured Python fundamentals-to-OOP practice notes |
+| 🧱 **[HTML Notes](https://github.com/prvthmpcypher/html-notes)** | HTML reference notes and curriculum work |
+| 🗣️ **[Communication Skill Roadmap](https://github.com/prvthmpcypher/communication-skill-roadmap)** | A self-designed roadmap for communication skill-building |
+| 🤖 **[Claude Code Skills](https://github.com/prvthmpcypher/claude-code-skills)** | 100 categorized prompt templates for Claude & Claude Code |
+
+</div>
+
+<br/>
+
+---
+
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&pause=3000&color=f97316&center=true&vCenter=true&width=380&lines=Built+with+intent.+Shipped+with+purpose." alt="Footer"/>
