@@ -224,11 +224,11 @@ The graph and cards below update from my public GitHub activity. Private work is
 
 <br/>
 
-<a href="https://github.com/prvthmpcypher?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api?username=prvthmpcypher&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide=stars,prs,issues,contribs&amp;custom_title=Commits&amp;bg_color=0f172a&amp;title_color=10b981&amp;text_color=f8fafc&amp;icon_color=059669&amp;border_color=334155" height="170" alt="Poorvith's public commit stats"/>
+<a href="https://github.com/prvthmpcypher?tab=overview">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prvthmpcypher&amp;theme=github_dark" width="66%" alt="Poorvith's public contribution timeline"/>
 </a>
 <a href="https://github.com/pulls?q=is%3Apr+author%3Aprvthmpcypher">
-  <img src="https://github-readme-stats.vercel.app/api?username=prvthmpcypher&amp;show_icons=true&amp;hide_rank=true&amp;hide=stars,commits,issues,contribs&amp;show=reviews,prs_merged,prs_merged_percentage&amp;custom_title=Pull%20requests&amp;bg_color=0f172a&amp;title_color=10b981&amp;text_color=f8fafc&amp;icon_color=059669&amp;border_color=334155" height="170" alt="Poorvith's public pull request stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=prvthmpcypher&amp;theme=github_dark" width="32%" alt="Poorvith's public commits and pull requests"/>
 </a>
 
 <br/><br/>
