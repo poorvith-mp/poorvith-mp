@@ -1,183 +1,187 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,4,2&height=220&section=header&text=Poorvith%20M%20P&fontSize=62&fontColor=fbbf24&animation=fadeIn&fontAlignY=45&desc=Indie%20Builder%20%E2%96%93%20Privacy-First%20Dev&descColor=fcd34d&descSize=17&descAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:064e3b,100:10b981&height=210&section=header&text=Poorvith%20M%20P&fontSize=50&fontColor=f8fafc&fontAlignY=38&desc=Student%20developer%20%E2%80%A2%20Building%20practical%20tools%20for%20real%20problems&descSize=16&descColor=d1fae5&descAlignY=58" width="100%" alt="Poorvith M P"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2600&pause=900&color=FB923C&center=true&vCenter=true&width=650&lines=Aspiring+Developer+%7C+Indie+Builder+%E2%9A%A1;HTML+%C2%B7+CSS+%C2%B7+Python+Developer;Gen+AI+%26+AI+Tools+Enthusiast+%E2%9C%A8;Building+Privacy-First+Tools+%F0%9F%94%92;Shipping+Digital+Products+%F0%9F%9A%80" alt="Typing SVG"/>
+<img src="https://raw.githubusercontent.com/prvthmpcypher/poorvithmp/main/public/logo-mark.svg" width="74" alt="Poorvith M P logo"/>
 
-<br/>
+### I build useful things, learn from what breaks, and keep the trade-offs visible.
 
-<img src="https://komarev.com/ghpvc/?username=prvthmpcypher&color=f97316&style=flat-square&label=PROFILE+VIEWS"/>&nbsp;<img src="https://img.shields.io/badge/status-actively%20building-22c55e?style=flat-square&labelColor=0f0a18"/>&nbsp;<img src="https://img.shields.io/badge/based%20in-India-ec4899?style=flat-square&labelColor=0f0a18"/>
-
-</div>
-
-<br/>
-
-```
-$ whoami
-```
-
-```
-poorvithmp · Indie Builder · Privacy-First Developer
-
-Building small, focused tools that respect the person using them —
-no accounts, no servers, no dark patterns. I learn by shipping,
-so most of what's below started as "let's see if I can build this."
-```
-
-<br/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:f97316,100:ec4899&height=3&width=100%"/>
+<a href="https://poorvithmp.com"><img src="https://img.shields.io/badge/Portfolio-poorvithmp.com-059669?style=for-the-badge&labelColor=0f172a&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="mailto:contact@poorvithmp.com"><img src="https://img.shields.io/badge/Email-contact%40poorvithmp.com-10b981?style=for-the-badge&labelColor=0f172a&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://linkedin.com/in/poorvithmp"><img src="https://img.shields.io/badge/LinkedIn-poorvithmp-059669?style=for-the-badge&labelColor=0f172a&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
 </div>
 
-## 🧬 Core Focus
+## About me
 
-<div align="center">
+I'm Poorvith M P, a 19-year-old student developer and incoming B.Tech CSE student from India.
 
-<img src="https://img.shields.io/badge/Privacy--First%20Tooling-0f0a18?style=for-the-badge&labelColor=f97316&color=0f0a18"/>
-<img src="https://img.shields.io/badge/Client--Side%20by%20Default-0f0a18?style=for-the-badge&labelColor=ec4899&color=0f0a18"/>
-<img src="https://img.shields.io/badge/Ship%20%3E%20Perfect-0f0a18?style=for-the-badge&labelColor=fbbf24&color=0f0a18"/>
+I learn by building and solving real problems. A working project teaches me questions a tutorial never reaches: what should stay simple, where privacy actually matters, what breaks outside the happy path, and whether the thing is useful enough to keep.
 
-</div>
+AI helps me research, compare approaches, draft, and debug faster. It does not remove the review step. I still want to understand the decision, verify the claim, and be direct about the limits.
 
-<br/>
-
-## 🧠 Capabilities
-
-<table width="100%">
-<tr><td valign="top" width="33%">
-
-**Core Stack**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
-</td><td valign="top" width="33%">
-
-**AI & Emerging**
-
-![Generative AI](https://img.shields.io/badge/Generative%20AI-FF6F00?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8B5CF6?style=flat-square)
-
-</td></tr>
+<table>
+<tr>
+<td width="25%" align="center"><strong>Useful before impressive</strong></td>
+<td width="25%" align="center"><strong>Privacy with clear boundaries</strong></td>
+<td width="25%" align="center"><strong>Accessible paths into the work</strong></td>
+<td width="25%" align="center"><strong>Open source with honest docs</strong></td>
+</tr>
 </table>
 
+## Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/prvthmpcypher/poorvithmp/main/public/projects/kithwork/logo.svg" width="42" alt="Kithwork logo"/>
+
+### [Kithwork](https://github.com/prvthmpcypher/kithwork)
+
+A calm, self-hosted workspace for relationships, projects, and the next action that should not get lost.
+
+React · TypeScript · Supabase · Vercel · Zod
+
+[Read-only preview](https://crm-one-ebon-60.vercel.app/) · [Source](https://github.com/prvthmpcypher/kithwork)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/prvthmpcypher/poorvithmp/main/public/tools/aiscrubber/logo.svg" width="42" alt="AIScrubber logo"/>
+
+### [AIScrubber](https://github.com/prvthmpcypher/aiscrubber)
+
+Scrubs sensitive details from prompts in the browser before they reach an AI service.
+
+React · TypeScript · Tailwind CSS · Vite
+
+[Try it](https://aiscrubber.poorvithmp.com) · [Source](https://github.com/prvthmpcypher/aiscrubber)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/prvthmpcypher/poorvithmp/main/public/tools/portfoliogen/logo.svg" width="42" alt="PortfolioGen logo"/>
+
+### [PortfolioGen](https://github.com/prvthmpcypher/portfoliogen)
+
+Builds a portfolio in the browser and gives the user a ZIP they can keep.
+
+React · TypeScript · Tailwind CSS · Vite · JSZip
+
+[Try it](https://portfoliogen.poorvithmp.com) · [Source](https://github.com/prvthmpcypher/portfoliogen)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/prvthmpcypher/poorvithmp/main/public/tools/safegen/logo.svg" width="42" alt="SafeGen logo"/>
+
+### [SafeGen](https://github.com/prvthmpcypher/safegen)
+
+Generates passwords, passphrases, PINs, and custom patterns locally with browser cryptography.
+
+React · TypeScript · Tailwind CSS · Web Crypto API
+
+[Try it](https://safegen.poorvithmp.com) · [Source](https://github.com/prvthmpcypher/safegen)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/prvthmpcypher/poorvithmp/main/public/tools/gradepath/logo.svg" width="42" alt="GradePath logo"/>
+
+### [GradePath](https://github.com/prvthmpcypher/gradepath)
+
+Calculates SGPA and CGPA with common presets or a grading scale the student defines.
+
+HTML · CSS · JavaScript · localStorage
+
+[Try it](https://gradepath.poorvithmp.com) · [Source](https://github.com/prvthmpcypher/gradepath)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://raw.githubusercontent.com/prvthmpcypher/poorvithmp/main/public/tools/open-claude-skills/logo.svg" width="42" alt="Open Claude Skills logo"/>
+
+### [Open Claude Skills](https://github.com/prvthmpcypher/open-claude-skills)
+
+A focused index and repository system for finding skills without pulling in an entire library.
+
+Markdown · Claude Skills · Git · GitHub
+
+[Explore the repository](https://github.com/prvthmpcypher/open-claude-skills)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>More projects</strong></summary>
+<br/>
+
+- [Open Privacy](https://github.com/prvthmpcypher/open-privacy) — a decision-first guide to privacy tools across 25 categories.
+- [Interview Prep](https://github.com/prvthmpcypher/interview-prep) — a local interview coach built with Streamlit, Ollama, and Mistral.
+- [InfiniteCanvas](https://github.com/prvthmpcypher/infinitecanvas) — a touch-friendly drawing space being prepared for a future public release.
+
+</details>
+
+## What I'm learning now
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ec4899,100:fbbf24&height=3&width=100%"/>
+<img src="https://img.shields.io/badge/AI%20Agents-0f172a?style=for-the-badge&logo=openai&logoColor=10b981" alt="AI Agents"/>
+<img src="https://img.shields.io/badge/Automation-0f172a?style=for-the-badge&logo=githubactions&logoColor=10b981" alt="Automation"/>
+<img src="https://img.shields.io/badge/Web%20Development-0f172a?style=for-the-badge&logo=react&logoColor=10b981" alt="Web Development"/>
+<img src="https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=10b981" alt="Python"/>
+<img src="https://img.shields.io/badge/DSA-0f172a?style=for-the-badge&logo=leetcode&logoColor=10b981" alt="Data Structures and Algorithms"/>
 
 </div>
 
-## 📡 Connect
+## Tools I build with
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,python,supabase,git,github,vercel,figma&theme=light&perline=13" alt="React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Vite, Python, Supabase, Git, GitHub, Vercel, and Figma"/>
+
+</div>
+
+## My usual loop
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="140">
-<a href="https://github.com/prvthmpcypher">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<br/><sub>prvthmpcypher</sub>
-</td>
-<td align="center" width="140">
-<a href="https://linkedin.com/in/poorvithmp">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<br/><sub>poorvithmp</sub>
-</td>
-<td align="center" width="140">
-<a href="https://x.com/poorvith_mp">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-<br/><sub>@poorvith_mp</sub>
-</td>
+<td align="center"><strong>Notice a real problem</strong></td>
+<td align="center">→</td>
+<td align="center"><strong>Build the smallest useful version</strong></td>
+<td align="center">→</td>
+<td align="center"><strong>Put it in front of reality</strong></td>
+<td align="center">→</td>
+<td align="center"><strong>Keep what I can explain and maintain</strong></td>
 </tr>
 </table>
 
 </div>
 
-<div align="center">
+## Let's build something useful
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:fbbf24,100:f97316&height=3&width=100%"/>
-
-</div>
-
-## 💻 Tech Stack
+I'm open to practical work where a focused solution can help more people. If you have a problem that could become a useful web tool, automation, or AI-assisted workflow, tell me about it.
 
 <div align="center">
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=html,css,python,git,github,figma&theme=dark&perline=6"/>
-</a>
-
-</div>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:f97316,100:ec4899&height=3&width=100%"/>
-
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.shion.dev/api?username=prvthmpcypher&bg_color=0f0a18&title_color=f97316&text_color=e2e8f0&icon_color=ec4899&border_color=f97316&include_all_commits=true&count_private=false&show_icons=true" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=prvthmpcypher&bg_color=0f0a18&title_color=f97316&text_color=e2e8f0&border_color=f97316&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" width="41%"/>
+<a href="https://poorvithmp.com/contact"><img src="https://img.shields.io/badge/Tell%20me%20about%20the%20problem-059669?style=for-the-badge&labelColor=0f172a" alt="Contact Poorvith"/></a>
+<a href="https://github.com/prvthmpcypher?tab=repositories"><img src="https://img.shields.io/badge/Explore%20my%20repositories-0f172a?style=for-the-badge&logo=github&logoColor=10b981" alt="Explore repositories"/></a>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=prvthmpcypher&background=0f0a18&border=f97316&stroke=f97316&ring=ec4899&fire=fbbf24&currStreakLabel=f97316&sideLabels=ec4899&dates=888888&currStreakNum=fbbf24&sideNums=e2e8f0" alt="GitHub Streak" width="65%"/>
+<a href="https://x.com/poorvith_mp">X</a> ·
+<a href="https://medium.com/@poorvithmp07">Medium</a> ·
+<a href="https://linkedin.com/in/poorvithmp">LinkedIn</a> ·
+<a href="mailto:contact@poorvithmp.com">Email</a>
 
-</div>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ec4899,100:fbbf24&height=3&width=100%"/>
-
-</div>
-
-
-## 📈 Activity Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prvthmpcypher&bg_color=0f0a18&color=f97316&line=ec4899&point=fbbf24&area=true&area_color=3d0a18&hide_border=false&radius=6" width="95%" alt="Activity Graph"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:f97316,100:ec4899&height=3&width=100%"/>
-
-</div>
-
-## 🔝 Top Contributed Repos
-
-<div align="center">
-
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=prvthmpcypher&bg_color=0f0a18&title_color=f97316&text_color=e2e8f0&border_color=f97316&layout=compact&langs_count=8" alt="Top Repos"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ec4899,100:fbbf24&height=3&width=100%"/>
-
-</div>
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&pause=3000&color=f97316&center=true&vCenter=true&width=420&lines=Built+with+intent.+Shipped+with+purpose." alt="Footer"/>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,4,2&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:10b981,55:064e3b,100:0f172a&height=110&section=footer" width="100%" alt="Footer"/>
 
 </div>
