@@ -14,7 +14,7 @@
 
 I'm a 19-year-old student developer from India. I care about usefulness, privacy, accessibility, and making technology easier for more people to reach.
 
-<a href="https://www.poorvithmp.com"><img src="https://img.shields.io/badge/Explore_my_work-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore my website"/></a>
+<a href="https://www.poorvithmp.com"><img src="https://img.shields.io/badge/Explore_my_website-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore my website"/></a>
 <a href="mailto:contact@poorvithmp.com"><img src="https://img.shields.io/badge/Start_a_conversation-0f172a?style=for-the-badge&logo=gmail&logoColor=10b981" alt="Email Poorvith"/></a>
 <a href="https://www.linkedin.com/in/poorvithmp"><img src="https://img.shields.io/badge/LinkedIn-059669?style=for-the-badge&logo=linkedin&logoColor=white" alt="Poorvith on LinkedIn"/></a>
 
@@ -41,7 +41,9 @@ I use AI tools to research, compare ideas, write, and debug faster. I still revi
 
 <img src="https://img.shields.io/badge/JavaScript-0f172a?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/TypeScript-0f172a?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/React-0f172a?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
 <img src="https://img.shields.io/badge/Tailwind_CSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS"/>
+<img src="https://img.shields.io/badge/Cloudflare_Workers-0f172a?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare Workers"/>
 
 </div>
 
@@ -69,27 +71,6 @@ These are tools I have used and learned through real projects. I am still improv
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://crm-one-ebon-60.vercel.app/">
-  <img src="https://www.poorvithmp.com/projects/kithwork/product.png" width="100%" alt="Kithwork project cover"/>
-</a>
-
-### [Kithwork](https://github.com/prvthmpcypher/kithwork)
-
-A calm, self-hosted workspace for relationships, projects, and the next action that should not get lost.
-
-<details>
-<summary><strong>Open project details</strong></summary>
-<br/>
-
-React · TypeScript · Supabase · Vercel · Zod
-
-[Read-only preview](https://crm-one-ebon-60.vercel.app/) · [View source](https://github.com/prvthmpcypher/kithwork)
-
-</details>
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://aiscrubber.poorvithmp.com">
   <img src="https://www.poorvithmp.com/tools/aiscrubber/cover.svg" width="100%" alt="AIScrubber project cover"/>
 </a>
@@ -102,32 +83,9 @@ Scrubs sensitive details from prompts in the browser before they reach an AI ser
 <summary><strong>Open project details</strong></summary>
 <br/>
 
-React · TypeScript · Tailwind CSS · Vite
+React · TypeScript · Tailwind CSS · Vite · Cloudflare Pages
 
 [Try it](https://aiscrubber.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/aiscrubber)
-
-</details>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://portfoliogen.poorvithmp.com">
-  <img src="https://www.poorvithmp.com/tools/portfoliogen/cover.svg" width="100%" alt="PortfolioGen project cover"/>
-</a>
-
-### [PortfolioGen](https://github.com/prvthmpcypher/portfoliogen)
-
-Builds a portfolio in the browser and gives the user a ZIP they can keep.
-
-<details>
-<summary><strong>Open project details</strong></summary>
-<br/>
-
-React · TypeScript · Tailwind CSS · Vite · JSZip
-
-[Try it](https://portfoliogen.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/portfoliogen)
 
 </details>
 
@@ -146,7 +104,7 @@ Generates passwords, passphrases, PINs, and custom patterns locally with browser
 <summary><strong>Open project details</strong></summary>
 <br/>
 
-React · TypeScript · Tailwind CSS · Web Crypto API
+React · TypeScript · Tailwind CSS · Web Crypto API · Cloudflare Pages
 
 [Try it](https://safegen.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/safegen)
 
@@ -157,42 +115,86 @@ React · TypeScript · Tailwind CSS · Web Crypto API
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://gradepath.poorvithmp.com">
-  <img src="https://www.poorvithmp.com/tools/gradepath/cover.svg" width="100%" alt="GradePath project cover"/>
+<a href="https://gradeforge.poorvithmp.com">
+  <img src="https://www.poorvithmp.com/tools/gradeforge/cover.svg" width="100%" alt="GradeForge project cover"/>
 </a>
 
-### [GradePath](https://github.com/prvthmpcypher/gradepath)
+### [GradeForge](https://github.com/prvthmpcypher/gradeforge)
 
-Calculates SGPA and CGPA with common presets or a grading scale the student defines.
+Calculates SGPA and CGPA with common university presets or a custom grading scale defined by the student.
 
 <details>
 <summary><strong>Open project details</strong></summary>
 <br/>
 
-HTML · CSS · JavaScript · localStorage
+HTML · CSS · JavaScript · localStorage · Cloudflare Pages
 
-[Try it](https://gradepath.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/gradepath)
+[Try it](https://gradeforge.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/gradeforge)
 
 </details>
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/prvthmpcypher/open-claude-skills">
-  <img src="https://www.poorvithmp.com/tools/open-claude-skills/cover-coming-soon.svg" width="100%" alt="Open Claude Skills project cover"/>
+<a href="https://www.poorvithmp.com/projects/kithwork">
+  <img src="https://www.poorvithmp.com/projects/kithwork/product.png" width="100%" alt="Kithwork project cover"/>
 </a>
 
-### [Open Claude Skills](https://github.com/prvthmpcypher/open-claude-skills)
+### [Kithwork](https://github.com/prvthmpcypher/kithwork)
 
-A focused index and repository system for finding skills without pulling in an entire library.
+A calm, self-hosted workspace for relationships, projects, and the next action that should not get lost.
 
 <details>
 <summary><strong>Open project details</strong></summary>
 <br/>
 
-Markdown · Claude Skills · Git · GitHub
+React · TypeScript · Supabase · Cloudflare · Zod
 
-[Explore the repository](https://github.com/prvthmpcypher/open-claude-skills)
+[View project](https://www.poorvithmp.com/projects/kithwork) · [View source](https://github.com/prvthmpcypher/kithwork)
+
+</details>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://skillary.poorvithmp.com">
+  <img src="https://www.poorvithmp.com/tools/skillary/cover.svg" width="100%" alt="Skillary project cover"/>
+</a>
+
+### [Skillary](https://github.com/prvthmpcypher/open-claude-skills)
+
+A focused index and repository system for discovering and testing agent skills.
+
+<details>
+<summary><strong>Open project details</strong></summary>
+<br/>
+
+Markdown · Agent Skills · Git · GitHub
+
+[Explore repository](https://github.com/prvthmpcypher/open-claude-skills)
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/prvthmpcypher/Command-Centre">
+  <img src="https://www.poorvithmp.com/poorvith_hero_bg.png" width="100%" alt="Command Centre cover"/>
+</a>
+
+### [Command Centre](https://github.com/prvthmpcypher/Command-Centre)
+
+Personal operations dashboard managing tools, projects, website CMS, Cloudflare edge telemetry, and Razorpay commerce.
+
+<details>
+<summary><strong>Open project details</strong></summary>
+<br/>
+
+React · Tailwind CSS · GSAP · Cloudflare Workers · Razorpay
+
+[View source](https://github.com/prvthmpcypher/Command-Centre)
 
 </details>
 
@@ -204,9 +206,9 @@ Markdown · Claude Skills · Git · GitHub
 <summary><strong>See more things I've built</strong></summary>
 <br/>
 
+- [EnvPreflight](https://github.com/prvthmpcypher/envpreflight) — fast local environment verification for developers.
 - [Open Privacy](https://github.com/prvthmpcypher/open-privacy) — a decision-first guide to privacy tools across 25 categories.
 - [Interview Prep](https://github.com/prvthmpcypher/interview-prep) — a local interview coach built with Streamlit, Ollama, and Mistral.
-- [InfiniteCanvas](https://github.com/prvthmpcypher/infinitecanvas) — a touch-friendly drawing space being prepared for a future public release.
 
 [Browse every repository](https://github.com/prvthmpcypher?tab=repositories)
 
@@ -217,21 +219,6 @@ Markdown · Claude Skills · Git · GitHub
 The graph and cards below update from my public GitHub activity. Private work is not included.
 
 <div align="center">
-
-<a href="https://github.com/prvthmpcypher?tab=overview">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=prvthmpcypher&amp;bg_color=0f172a&amp;color=f8fafc&amp;line=10b981&amp;point=059669&amp;area=true&amp;area_color=064e3b&amp;border_color=334155&amp;custom_title=Contribution%20activity&amp;radius=8" width="100%" alt="Poorvith's contribution activity graph"/>
-</a>
-
-<br/>
-
-<a href="https://github.com/prvthmpcypher?tab=overview">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prvthmpcypher&amp;theme=github_dark" width="66%" alt="Poorvith's public contribution timeline"/>
-</a>
-<a href="https://github.com/pulls?q=is%3Apr+author%3Aprvthmpcypher">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=prvthmpcypher&amp;theme=github_dark" width="32%" alt="Poorvith's public commits and pull requests"/>
-</a>
-
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prvthmpcypher/prvthmpcypher/output/contribution-snake-dark.svg"/>
