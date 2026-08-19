@@ -75,7 +75,7 @@ These are tools I have used and learned through real projects. I am still improv
   <img src="https://www.poorvithmp.com/tools/aiscrubber/cover.svg" width="100%" alt="AIScrubber project cover"/>
 </a>
 
-### [AIScrubber](https://github.com/prvthmpcypher/aiscrubber)
+### [AIScrubber](https://github.com/poorvith-mp/aiscrubber)
 
 Scrubs sensitive details from prompts in the browser before they reach an AI service.
 
@@ -85,7 +85,7 @@ Scrubs sensitive details from prompts in the browser before they reach an AI ser
 
 React · TypeScript · Tailwind CSS · Vite · Cloudflare Pages
 
-[Try it](https://aiscrubber.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/aiscrubber)
+[Try it](https://aiscrubber.poorvithmp.com) · [View source](https://github.com/poorvith-mp/aiscrubber)
 
 </details>
 
@@ -96,7 +96,7 @@ React · TypeScript · Tailwind CSS · Vite · Cloudflare Pages
   <img src="https://www.poorvithmp.com/tools/safegen/cover.svg" width="100%" alt="SafeGen project cover"/>
 </a>
 
-### [SafeGen](https://github.com/prvthmpcypher/safegen)
+### [SafeGen](https://github.com/poorvith-mp/safegen)
 
 Generates passwords, passphrases, PINs, and custom patterns locally with browser cryptography.
 
@@ -106,7 +106,7 @@ Generates passwords, passphrases, PINs, and custom patterns locally with browser
 
 React · TypeScript · Tailwind CSS · Web Crypto API · Cloudflare Pages
 
-[Try it](https://safegen.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/safegen)
+[Try it](https://safegen.poorvithmp.com) · [View source](https://github.com/poorvith-mp/safegen)
 
 </details>
 
@@ -119,7 +119,7 @@ React · TypeScript · Tailwind CSS · Web Crypto API · Cloudflare Pages
   <img src="https://www.poorvithmp.com/tools/gradeforge/cover.svg" width="100%" alt="GradeForge project cover"/>
 </a>
 
-### [GradeForge](https://github.com/prvthmpcypher/gradeforge)
+### [GradeForge](https://github.com/poorvith-mp/gradeforge)
 
 Calculates SGPA and CGPA with common university presets or a custom grading scale defined by the student.
 
@@ -129,7 +129,7 @@ Calculates SGPA and CGPA with common university presets or a custom grading scal
 
 HTML · CSS · JavaScript · localStorage · Cloudflare Pages
 
-[Try it](https://gradeforge.poorvithmp.com) · [View source](https://github.com/prvthmpcypher/gradeforge)
+[Try it](https://gradeforge.poorvithmp.com) · [View source](https://github.com/poorvith-mp/gradeforge)
 
 </details>
 
@@ -140,7 +140,7 @@ HTML · CSS · JavaScript · localStorage · Cloudflare Pages
   <img src="https://www.poorvithmp.com/projects/kithwork/product.png" width="100%" alt="Kithwork project cover"/>
 </a>
 
-### [Kithwork](https://github.com/prvthmpcypher/kithwork)
+### [Kithwork](https://github.com/poorvith-mp/kithwork)
 
 A calm, self-hosted workspace for relationships, projects, and the next action that should not get lost.
 
@@ -150,7 +150,7 @@ A calm, self-hosted workspace for relationships, projects, and the next action t
 
 React · TypeScript · Supabase · Cloudflare · Zod
 
-[View project](https://www.poorvithmp.com/projects/kithwork) · [View source](https://github.com/prvthmpcypher/kithwork)
+[View project](https://www.poorvithmp.com/projects/kithwork) · [View source](https://github.com/poorvith-mp/kithwork)
 
 </details>
 
@@ -163,7 +163,7 @@ React · TypeScript · Supabase · Cloudflare · Zod
   <img src="https://www.poorvithmp.com/tools/skillary/cover.svg" width="100%" alt="Skillary project cover"/>
 </a>
 
-### [Skillary](https://github.com/prvthmpcypher/open-claude-skills)
+### [Skillary](https://github.com/poorvith-mp/open-claude-skills)
 
 A focused index and repository system for discovering and testing agent skills.
 
@@ -173,18 +173,18 @@ A focused index and repository system for discovering and testing agent skills.
 
 Markdown · Agent Skills · Git · GitHub
 
-[Explore repository](https://github.com/prvthmpcypher/open-claude-skills)
+[Explore repository](https://github.com/poorvith-mp/open-claude-skills)
 
 </details>
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/prvthmpcypher/Command-Centre">
+<a href="https://github.com/poorvith-mp/Command-Centre">
   <img src="https://www.poorvithmp.com/poorvith_hero_bg.png" width="100%" alt="Command Centre cover"/>
 </a>
 
-### [Command Centre](https://github.com/prvthmpcypher/Command-Centre)
+### [Command Centre](https://github.com/poorvith-mp/Command-Centre)
 
 Personal operations dashboard managing tools, projects, website CMS, Cloudflare edge telemetry, and Razorpay commerce.
 
@@ -194,7 +194,7 @@ Personal operations dashboard managing tools, projects, website CMS, Cloudflare 
 
 React · Tailwind CSS · GSAP · Cloudflare Workers · Razorpay
 
-[View source](https://github.com/prvthmpcypher/Command-Centre)
+[View source](https://github.com/poorvith-mp/Command-Centre)
 
 </details>
 
@@ -206,11 +206,11 @@ React · Tailwind CSS · GSAP · Cloudflare Workers · Razorpay
 <summary><strong>See more things I've built</strong></summary>
 <br/>
 
-- [EnvPreflight](https://github.com/prvthmpcypher/envpreflight) — fast local environment verification for developers.
-- [Open Privacy](https://github.com/prvthmpcypher/open-privacy) — a decision-first guide to privacy tools across 25 categories.
-- [Interview Prep](https://github.com/prvthmpcypher/interview-prep) — a local interview coach built with Streamlit, Ollama, and Mistral.
+- [EnvPreflight](https://github.com/poorvith-mp/envpreflight) — fast local environment verification for developers.
+- [Open Privacy](https://github.com/poorvith-mp/open-privacy) — a decision-first guide to privacy tools across 25 categories.
+- [Interview Prep](https://github.com/poorvith-mp/interview-prep) — a local interview coach built with Streamlit, Ollama, and Mistral.
 
-[Browse every repository](https://github.com/prvthmpcypher?tab=repositories)
+[Browse every repository](https://github.com/poorvith-mp?tab=repositories)
 
 </details>
 
@@ -221,9 +221,9 @@ The graph and cards below update from my public GitHub activity. Private work is
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prvthmpcypher/prvthmpcypher/output/contribution-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prvthmpcypher/prvthmpcypher/output/contribution-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/prvthmpcypher/prvthmpcypher/output/contribution-snake.svg" width="100%" alt="Animated GitHub contribution heatmap"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake.svg" width="100%" alt="Animated GitHub contribution heatmap"/>
 </picture>
 
 </div>
@@ -253,12 +253,12 @@ I'm open to practical work where a focused solution can help more people. If you
 <div align="center">
 
 <a href="https://www.poorvithmp.com/contact"><img src="https://img.shields.io/badge/Tell_me_about_the_problem-059669?style=for-the-badge&labelColor=0f172a" alt="Contact Poorvith"/></a>
-<a href="https://github.com/prvthmpcypher?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_repositories-0f172a?style=for-the-badge&logo=github&logoColor=10b981" alt="Explore Poorvith's repositories"/></a>
+<a href="https://github.com/poorvith-mp?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_repositories-0f172a?style=for-the-badge&logo=github&logoColor=10b981" alt="Explore Poorvith's repositories"/></a>
 
 <br/><br/>
 
 <a href="https://www.poorvithmp.com">Website</a> ·
-<a href="https://github.com/prvthmpcypher">GitHub</a> ·
+<a href="https://github.com/poorvith-mp">GitHub</a> ·
 <a href="https://www.linkedin.com/in/poorvithmp">LinkedIn</a> ·
 <a href="https://x.com/poorvith_mp">X</a> ·
 <a href="mailto:contact@poorvithmp.com">Email</a>
