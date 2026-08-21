@@ -242,32 +242,9 @@ npx skills add poorvith-mp/skills-developer
 
 ---
 
-## 🛠️ Technical Stack & Agent Architecture
-
-I combine modern web standards with rigorous multi-agent workflows:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│ 1. Claude Code: Chief Architect & Planner                   │
-│    Deconstructs requirements into verifiable specifications │
-└──────────────────────────────┬──────────────────────────────┘
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│ 2. Codex App: Builder & Implementer                         │
-│    TDD execution, live local servers, minimal clean diffs   │
-└──────────────────────────────┬──────────────────────────────┘
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│ 3. Antigravity / Gemini CLI: Security & Hardening           │
-│    Secret preflight, edge verification, production releases │
-└─────────────────────────────────────────────────────────────┘
-```
-
-<br/>
+## 🛠️ Technical Arsenal & Core Stack
 
 <div align="center">
-
-### Core Technologies
 
 | Layer | Technologies |
 |---|---|
@@ -285,6 +262,13 @@ I combine modern web standards with rigorous multi-agent workflows:
 
 <div align="center">
 
+<!-- Interactive Activity Graph in Gold/Carbon Theme -->
+<a href="https://github.com/poorvith-mp">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poorvith-mp&bg_color=08090b&color=cda03a&line=cda03a&point=eff0f1&area=true&hide_border=false&border_color=1f232b" width="100%" alt="Poorvith's GitHub Activity Graph" />
+</a>
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake.svg"/>
@@ -293,29 +277,11 @@ I combine modern web standards with rigorous multi-agent workflows:
 
 <br/><br/>
 
-<!-- GitHub Stats & Streak Cards in Gold/Carbon Theme -->
-<a href="https://github.com/poorvith-mp">
-  <img src="https://github-readme-stats.vercel.app/api?username=poorvith-mp&show_icons=true&theme=transparent&title_color=cda03a&text_color=eff0f1&icon_color=cda03a&bg_color=08090b&border_color=1f232b&hide_border=false&count_private=true" alt="Poorvith's GitHub Stats" height="165" />
-</a>
-<a href="https://github.com/poorvith-mp">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=poorvith-mp&layout=compact&theme=transparent&title_color=cda03a&text_color=eff0f1&bg_color=08090b&border_color=1f232b&hide_border=false" alt="Top Languages" height="165" />
-</a>
-
-<br/>
-
 <a href="https://github.com/poorvith-mp">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=poorvith-mp&theme=transparent&background=08090b&border=1f232b&stroke=cda03a&ring=cda03a&fire=cda03a&currStreakNum=eff0f1&sideNums=eff0f1&currStreakLabel=cda03a&sideLabels=eff0f1&dates=8e929a" alt="GitHub Streak" width="95%" />
 </a>
 
 </div>
-
----
-
-## 🎓 Education & Journey
-
-- **Schooling:** Jawahar Navodaya Vidyalaya (2018–2025)
-- **Next Chapter:** Incoming B.Tech Computer Science & Engineering student
-- **Current Focus:** Strengthening shipped tools, expanding modular agent skill architectures, and building local-first developer utilities.
 
 ---
 
