@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">envpreflight</title>
+  <desc id="desc">Check whether a repository can run before debugging.</desc>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Geist:wght@600;700&amp;family=Geist+Mono:wght@500&amp;display=swap');
+      @keyframes blinkLight {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      .green-pulse { animation: blinkLight 2s ease-in-out infinite; }
+      .yellow-pulse { animation: blinkLight 2.4s ease-in-out infinite 0.5s; }
+      .cyan-line { animation: blinkLight 3s ease-in-out infinite 1s; }
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <text x="82" y="270" fill="#E5E5E5" font-family="'Geist', sans-serif" font-size="82" font-weight="700">envpreflight</text>
+  <text x="86" y="340" fill="#06B6D4" font-family="'Geist Mono', monospace" font-size="25">Check whether a repository can run before debugging.</text>
+  
+  <g transform="translate(730 118)">
+    <path d="m120 0 112 62-112 62L8 62z" fill="#16A34A"/>
+    <path d="m120 92 112 62-112 62L8 154z" fill="#123F48" stroke="#06B6D4" stroke-width="5"/>
+    <path d="m120 184 112 62-112 62L8 246z" fill="#3F3F46"/>
+    <path d="M0 156h240" stroke="#06B6D4" stroke-width="8" class="cyan-line"/>
+    <path d="M-8 143h16v26H-8zM232 143h16v26h-16z" fill="#06B6D4"/>
+  </g>
+  <g transform="translate(1010 180)">
+    <circle cy="0" r="12" fill="#16A34A" class="green-pulse"/>
+    <circle cy="78" r="12" fill="#EAB308" class="yellow-pulse"/>
+    <circle cy="156" r="12" fill="#EF4444"/>
+    <path d="M24 0h76M24 78h76M24 156h76" stroke="#262626" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

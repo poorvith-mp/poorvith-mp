@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 52" width="100%" height="52">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@500;700&amp;family=Instrument+Serif:ital@1&amp;display=swap');
+      .pulse-dot {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+      .ring-pulse {
+        animation: ring 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+      }
+      .border-glow {
+        animation: glow 4s ease-in-out infinite alternate;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.85); }
+      }
+      @keyframes ring {
+        0% { r: 4px; opacity: 0.8; }
+        100% { r: 10px; opacity: 0; }
+      }
+      @keyframes glow {
+        0% { stroke: #27272a; }
+        50% { stroke: #cda03a; }
+        100% { stroke: #27272a; }
+      }
+    </style>
+  </defs>
+  <rect x="2" y="2" width="796" height="48" rx="24" fill="#131417" class="border-glow" stroke="#27272a" stroke-width="1.5"/>
+  <g transform="translate(28, 26)">
+    <circle cx="0" cy="0" r="4" fill="#cda03a" class="ring-pulse" stroke="#cda03a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#cda03a" class="pulse-dot"/>
+    <text x="14" y="4" fill="#cda03a" font-family="'Geist Mono', monospace" font-size="12" font-weight="700" letter-spacing="0.1em">FORESIGHT ENGINE</text>
+  </g>
+  <text x="210" y="30" fill="#adafb4" font-family="'Geist Mono', monospace" font-size="12">|</text>
+  <text x="228" y="31" fill="#f7f7f5" font-family="'Instrument Serif', serif" font-style="italic" font-size="16">Catching friction, leaks, and decay before they become expensive</text>
+  <g transform="translate(720, 26)">
+    <rect x="-35" y="-12" width="74" height="24" rx="12" fill="#1f2125" stroke="#4f5259" stroke-width="1"/>
+    <text x="2" y="4" fill="#ffe48b" font-family="'Geist Mono', monospace" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="0.05em">ONLINE</text>
+  </g>
+</svg>

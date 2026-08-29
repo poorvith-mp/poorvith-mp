@@ -1,22 +1,31 @@
 <div align="center">
 
+<!-- Top Banner: Foresight Wide -->
 <a href="https://www.poorvithmp.com">
-  <img src="./assets/poorvith-profile-card.jpg" width="100%" alt="Poorvith M P — I Foresight before small problems become expensive." />
+  <img src="./assets/foresight-banner-wide.png" width="100%" alt="Poorvith M P — I Foresight before small problems become expensive." />
 </a>
 
 <br/><br/>
 
-<img src="./assets/logo-mark.svg" width="68" height="68" alt="PM Aperture Mark" />
+<!-- Logo & Core Profile Identity -->
+<a href="https://www.poorvithmp.com">
+  <img src="./assets/logo-mark.svg" width="68" height="68" alt="PM Aperture Mark" />
+</a>
 
 # POORVITH M P
 
 ### <i>I Foresight before small problems become expensive.</i>
 
 <p align="center">
-  <strong>Student Developer • Tools Architect • AI Agent Systems • Local-First & Privacy Engineering</strong>
+  <strong>Tools Architect • AI Agent Systems • Local-First & Privacy Engineering</strong>
   <br/>
-  <span>Karnataka, India</span>
+  <span>Hassan, Karnataka, India</span>
 </p>
+
+<!-- Live Animated System Indicator -->
+<img src="./assets/live-status.svg" width="100%" alt="Foresight Engine Live Status" />
+
+<br/><br/>
 
 <!-- Identity Action Badges -->
 <p align="center">
@@ -35,7 +44,7 @@
 
 I notice the friction people learn to tolerate, turn it into a focused tool, and keep the engineering decisions visible from first check to working proof.
 
-Most software failures do not happen because of complex math — they happen because small warning signs were ignored: a credential pasted into an LLM prompt, a missing environment variable crashing a dev container, or semester grade calculations lost in rigid spreadsheets. 
+Most software failures don't happen because of complex math — they happen because small warning signs were ignored: a credential pasted into an LLM prompt, a missing environment variable crashing a dev container, or semester grade calculations lost in rigid spreadsheets. 
 
 I build browser-local utilities, developer tools, and modular AI agent systems that solve these exact points of friction before they turn into costly emergencies.
 
@@ -64,37 +73,21 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 
 ---
 
-## ⚡ Instant Terminal Quick-Launch
-
-Test my developer tools directly in your terminal in under 3 seconds without cloning or configuring dependencies:
-
-```bash
-# 1. Strip API keys, PII, and AI zero-width watermarks before sending prompts to LLMs
-npx aiscrubber
-
-# 2. Audit runtime versions, port conflicts, service daemons, and .env key parity
-npx @envpreflight/cli
-
-# 3. Install modular developer instructions into Claude Code, Codex, or Cursor
-npx skills add poorvith-mp/skills-developer
-```
-
----
-
-## 🚀 Selected Products & Shipped Tools
+## 🚀 My Contributions
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
+<!-- AIScrubber Card (Row 1, Left) -->
 <a href="https://aiscrubber.poorvithmp.com">
-  <img src="https://www.poorvithmp.com/tools/aiscrubber/cover.svg" width="100%" alt="AIScrubber cover"/>
+  <img src="./assets/aiscrubber-cover.svg" width="100%" alt="AIScrubber Cover"/>
 </a>
 
-### 🔒 [AIScrubber](https://github.com/poorvith-mp/aiscrubber)
+### <img src="./assets/aiscrubber-logo.svg" width="22" height="22" valign="middle" alt="AIScrubber Logo"/> [AIScrubber](https://github.com/poorvith-mp/aiscrubber)
 > **Zero-exposure browser privacy desk, CLI, and Model Context Protocol (MCP) server.**
 
-- **The Problem:** Developers paste credentials, DB connection strings, and logs into ChatGPT/Claude. Once sent to frontier models or public issue trackers, a secret cannot be un-sent.
+- **The Problem:** Developers paste credentials, DB strings, and logs into frontier LLMs. Once sent to frontier models or public issue trackers, a secret cannot be un-sent.
 - **The Solution:** Operates 5 client-side engines: text credential scrubber (8 detector classes + regex), zero-exposure prompt roundtrip with `.aiscrub.json` reconstruction key, zero-width Unicode watermark remover, C2PA EXIF/metadata wiper, and canvas redactor.
 - **Tech Stack:** React 19 · TypeScript · Web Crypto API · Vite · Tailwind CSS · MCP Server · Node CLI
 
@@ -109,21 +102,84 @@ npx skills add poorvith-mp/skills-developer
 - 100% in-browser Web Crypto execution with zero network telemetry
 - Claude & LLM invisible watermark remover (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`)
 - Terminal batch execution via `npx aiscrubber`
-- Native MCP server integration for Claude Desktop and Cursor
+- Native MCP server integration for Claude Desktop, Cursor, and Codex
 
 </details>
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/poorvith-mp/envpreflight">
-  <img src="https://www.poorvithmp.com/tools/envpreflight/cover.svg" width="100%" alt="EnvPreflight cover"/>
+<!-- SafeGen Card (Row 1, Right) -->
+<a href="https://safegen.poorvithmp.com">
+  <img src="./assets/safegen-cover.svg" width="100%" alt="SafeGen Cover"/>
 </a>
 
-### 🛠️ [EnvPreflight](https://github.com/poorvith-mp/envpreflight)
+### <img src="./assets/safegen-logo.svg" width="22" height="22" valign="middle" alt="SafeGen Logo"/> [SafeGen](https://github.com/poorvith-mp/safegen)
+> **Browser-local cryptographic credential, passphrase, and pattern generator.**
+
+- **The Problem:** Online password generators transmit generated secrets across networks or rely on biased pseudo-random implementations.
+- **The Solution:** Uses browser `crypto.getRandomValues()` with rejection sampling to eliminate modulo bias. Provides 4 modes: Random Password, Memorable Passphrase, Numeric PIN, and Custom Pattern with live bit-entropy calculation.
+- **Tech Stack:** React 19 · TypeScript · Web Crypto API · Vite · Tailwind CSS v4 · GSAP
+
+<p>
+  <a href="https://safegen.poorvithmp.com"><img src="https://img.shields.io/badge/Launch_App-safegen.poorvithmp.com-cda03a?style=flat-square" alt="Launch SafeGen"/></a>
+  <a href="https://github.com/poorvith-mp/safegen"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="SafeGen GitHub"/></a>
+</p>
+
+<details>
+<summary><strong>View architectural highlights</strong></summary>
+
+- Cryptographic randomness via Web Crypto API with zero server calls
+- Live bit-entropy scoring and offline brute-force crack time models
+- Local-only searchable copy desk up to 50 items with 1-click purge
+- Fully responsive tactile interface with GSAP micro-interactions
+
+</details>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<!-- GradeForge Card (Row 2, Left) -->
+<a href="https://gradeforge.poorvithmp.com">
+  <img src="./assets/gradeforge-cover.svg" width="100%" alt="GradeForge Cover"/>
+</a>
+
+### <img src="./assets/gradeforge-logo.svg" width="22" height="22" valign="middle" alt="GradeForge Logo"/> [GradeForge](https://github.com/poorvith-mp/gradeforge)
+> **Credit-weighted semester GPA engine & Target What-If degree planner.**
+
+- **The Problem:** University grading scales vary widely. Ad-filled online calculators fail on custom credits, multi-semester weighting, and forward-looking GPA target forecasting.
+- **The Solution:** Preloaded with university presets (VTU CBCS, Anna University, Mumbai University, KTU, JNTU, US 4.0) plus a custom scale builder. Includes a Target CGPA What-If planner calculating exact required semester GPAs.
+- **Tech Stack:** React 18 · TypeScript · Vite · Tailwind CSS · LocalStorage Persistence
+
+<p>
+  <a href="https://gradeforge.poorvithmp.com"><img src="https://img.shields.io/badge/Launch_App-gradeforge.poorvithmp.com-cda03a?style=flat-square" alt="Launch GradeForge"/></a>
+  <a href="https://github.com/poorvith-mp/gradeforge"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="GradeForge GitHub"/></a>
+</p>
+
+<details>
+<summary><strong>View architectural highlights</strong></summary>
+
+- Multi-semester credit-weighted SGPA and cumulative CGPA calculation
+- Target CGPA 'What-If' planner for future semester planning
+- CSV data export, JSON backup, and clean printable transcript renderer
+- 100% offline browser storage with zero account signups
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+
+<!-- EnvPreflight Card (Row 2, Right) -->
+<a href="https://github.com/poorvith-mp/envpreflight">
+  <img src="./assets/envpreflight-cover.svg" width="100%" alt="EnvPreflight Cover"/>
+</a>
+
+### <img src="./assets/envpreflight-logo.svg" width="22" height="22" valign="middle" alt="EnvPreflight Logo"/> [EnvPreflight](https://github.com/poorvith-mp/envpreflight)
 > **Sub-3-second local runtime, service, and environment readiness auditor.**
 
-- **The Problem:** New developers clone a project, run the build, and hit cryptic runtime version mismatches, missing `.env` variables, stopped Docker containers, or port collisions.
+- **The Problem:** Developers clone a repository and hit cryptic runtime mismatches, missing `.env` variables, stopped database daemons, or port collisions.
 - **The Solution:** Automatically inspects project manifests (`.nvmrc`, `package.json`, `pyproject.toml`, `go.mod`, `docker-compose.yml`, `.env.example`) and generates single-line copyable fixes.
 - **Tech Stack:** TypeScript · Node.js · pnpm Workspaces · tsup · Vitest · MCP Protocol · VS Code Extension
 
@@ -147,104 +203,156 @@ npx skills add poorvith-mp/skills-developer
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://safegen.poorvithmp.com">
-  <img src="https://www.poorvithmp.com/tools/safegen/cover.svg" width="100%" alt="SafeGen cover"/>
-</a>
-
-### 🔑 [SafeGen](https://github.com/poorvith-mp/safegen)
-> **Browser-local cryptographic credential, passphrase, and pattern generator.**
-
-- **The Problem:** Online password generators transmit generated secrets across networks or rely on biased `Math.random()` pseudo-random implementations.
-- **The Solution:** Uses browser `crypto.getRandomValues()` with rejection sampling to eliminate modulo bias. Provides 4 modes: Random Password, Memorable Passphrase, Numeric PIN, and Custom Pattern with live bit-entropy calculation.
-- **Tech Stack:** React 19 · TypeScript · Web Crypto API · Vite · Tailwind CSS v4 · GSAP
-
-<p>
-  <a href="https://safegen.poorvithmp.com"><img src="https://img.shields.io/badge/Launch_App-safegen.poorvithmp.com-cda03a?style=flat-square" alt="Launch SafeGen"/></a>
-  <a href="https://github.com/poorvith-mp/safegen"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="SafeGen GitHub"/></a>
-</p>
-
-<details>
-<summary><strong>View architectural highlights</strong></summary>
-
-- Cryptographic randomness via Web Crypto API with zero server calls
-- Live bit-entropy scoring and offline brute-force crack time models
-- Local-only searchable copy desk up to 50 items with 1-click purge
-- Fully responsive tactile interface with GSAP micro-interactions
-
-</details>
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://gradeforge.poorvithmp.com">
-  <img src="https://www.poorvithmp.com/tools/gradeforge/cover.svg" width="100%" alt="GradeForge cover"/>
-</a>
-
-### 📊 [GradeForge](https://github.com/poorvith-mp/gradeforge)
-> **Credit-weighted semester GPA engine & Target What-If degree planner.**
-
-- **The Problem:** University grading scales vary widely. Ad-filled online calculators fail on custom credits, multi-semester weighting, and forward-looking GPA target forecasting.
-- **The Solution:** Preloaded with university presets (VTU CBCS, Anna University, Mumbai University, KTU, JNTU, US 4.0) plus a custom scale builder. Includes a Target CGPA What-If planner calculating exact required semester GPAs.
-- **Tech Stack:** React 18 · TypeScript · Vite · Tailwind CSS · LocalStorage Persistence
-
-<p>
-  <a href="https://gradeforge.poorvithmp.com"><img src="https://img.shields.io/badge/Launch_App-gradeforge.poorvithmp.com-cda03a?style=flat-square" alt="Launch GradeForge"/></a>
-  <a href="https://github.com/poorvith-mp/gradeforge"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="GradeForge GitHub"/></a>
-</p>
-
-<details>
-<summary><strong>View architectural highlights</strong></summary>
-
-- Multi-semester credit-weighted SGPA and cumulative CGPA calculation
-- Target CGPA 'What-If' planner for future semester planning
-- CSV data export, JSON backup, and clean printable transcript renderer
-- 100% offline browser storage with zero account signups
-
-</details>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
+<!-- Skillary Card (Row 3, Left) -->
 <a href="https://skillary.poorvithmp.com">
-  <img src="https://www.poorvithmp.com/tools/skillary/cover.svg" width="100%" alt="Skillary cover"/>
+  <img src="./assets/skillary-cover.svg" width="100%" alt="Skillary Cover"/>
 </a>
 
-### 🧠 [Skillary](https://github.com/poorvith-mp/skillary) — The Universal AI Agent Skills Ecosystem
-> **315 modular agent instructions organized across 12 focused domain packages.**
+### <img src="./assets/skillary-logo.svg" width="22" height="22" valign="middle" alt="Skillary Logo"/> [Skillary](https://github.com/poorvith-mp/skillary)
+> **The Universal AI Agent Skills Ecosystem — 315 modular agent instructions.**
 
-- **The Problem:** Agent capabilities are often locked behind monolithic plugins or vague system prompts that lack deterministic operational rules.
-- **The Solution:** A standardized repository index compatible with Claude Code, OpenAI Codex, Cursor, and Gemini CLI. Adheres to the official Agent Skills Specification with progressive execution, reference documentation, and domain checklists.
-- **12 Domain Packages:** Developer · Marketing · Design · Business · Finance · Sales & Support · Education · Game Dev · Writing · Personal · Specialized · Meta
-- **Installation:** Direct via Claude Code marketplace or terminal `npx skills add poorvith-mp/skills-[category]`.
+- **The Problem:** AI coding agents lack structured, deterministic domain knowledge, resulting in shallow answers and repetitive manual prompting across projects.
+- **The Solution:** A standardized repository index of 315 agent skills across 12 domain packages compatible with Claude Code, OpenAI Codex, Cursor, and Gemini CLI. Adheres strictly to the Agent Skills Specification.
+- **Tech Stack:** Markdown Architecture · Agent Skills Spec · Progressive Execution Index · pnpm Workspaces
 
 <p>
   <a href="https://skillary.poorvithmp.com"><img src="https://img.shields.io/badge/Explore_Catalog-skillary.poorvithmp.com-cda03a?style=flat-square" alt="Explore Skillary"/></a>
   <a href="https://github.com/poorvith-mp/skillary"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="Skillary GitHub"/></a>
 </p>
 
+<details>
+<summary><strong>View architectural highlights</strong></summary>
+
+- 12 Categorized Domain Packages: Developer, Marketing, Design, Business, Finance, Writing, and more
+- Direct terminal installation via `npx skills add poorvith-mp/skills-[category]`
+- Built-in multi-sweep anti-AI tell standards and strict execution checklists
+- Seamless interoperability across leading agent frameworks
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+
+<!-- Crashpack Card (Row 3, Right) -->
+<a href="https://github.com/poorvith-mp/crashpack">
+  <img src="./assets/crashpack-cover.svg" width="100%" alt="Crashpack Cover"/>
+</a>
+
+### <img src="./assets/crashpack-logo.svg" width="22" height="22" valign="middle" alt="Crashpack Logo"/> [Crashpack](https://github.com/poorvith-mp/crashpack)
+> **Everything your bug report needs, in one command. Sub-2-second local diagnostic collector.**
+
+- **The Problem:** Filing a useful bug report takes 10 minutes of manually gathering logs, git states, package versions, OS info, and env config — developers skip half of it, leaving issues unactionable.
+- **The Solution:** A zero-config CLI that bundles complete runtime context, sanitizes sensitive secrets with zero network calls, and copies a single markdown report ready to paste into GitHub or AI agents.
+- **Tech Stack:** TypeScript · Node.js · AST Sanitizer · Vitest · tsup · CLI
+
+<p>
+  <a href="https://github.com/poorvith-mp/crashpack"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="Crashpack GitHub"/></a>
+  <a href="https://www.npmjs.com/package/crashpack"><img src="https://img.shields.io/badge/npm-crashpack-cb3837?style=flat-square&logo=npm" alt="npm package"/></a>
+</p>
+
+<details>
+<summary><strong>View architectural highlights</strong></summary>
+
+- Zero network calls: completely offline execution with zero telemetry
+- Mandatory redaction pipeline: auto-strips AWS keys, Stripe tokens, private keys, and passwords
+- One-click GitHub Issue pre-fill (`npx crashpack --issue`)
+- Command wrapper mode (`npx crashpack --wrap "command"`) capturing failed process buffers
+
+</details>
+
 </td>
 </tr>
 </table>
 
-<details>
-<summary><strong>📚 Explore Additional Open Source Projects</strong></summary>
+---
+
+## 🌐 Groundbreaking Open Source Contributions
+
+*Upstream core contributions, security hardening, and knowledge graph systems built for the ecosystem.*
+
 <br/>
 
-- **[Open Privacy](https://github.com/poorvith-mp/open-privacy)** — Decision-first guide and curated evaluation matrix covering privacy tools across 25 categories.
-- **[Interview Prep](https://github.com/poorvith-mp/interview-prep)** — Local technical interview coach built with Streamlit, Ollama, and local Mistral models.
-- **[Personal Portfolio Theatre](https://github.com/poorvith-mp/poorvithmp)** — The source code powering [poorvithmp.com](https://www.poorvithmp.com), featuring the Platinum Product Theatre design system.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[Browse all 30+ repositories on GitHub &rarr;](https://github.com/poorvith-mp?tab=repositories)
+### 🔒 [watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)
+`guillaumemeyer/watermarks-remover` • <img src="https://img.shields.io/badge/Role-Collaborator-cda03a?style=flat-square" alt="Collaborator"/>
 
-</details>
+- **The Breakthrough:** Neutralizes invisible zero-width Unicode tracking vectors (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`) embedded by frontier LLM outputs.
+- **Contribution:** Hardened the CLI pipeline and designed the AST-level regex sanitizer, transforming experimental code into a production-grade inspection engine with push collaborator access.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [Knowledge-Agent](https://github.com/PrithvijitBose/Knowledge-Agent)
+`PrithvijitBose/Knowledge-Agent` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
+
+- **The Breakthrough:** Hybrid vector-graph retrieval architecture for autonomous local reasoning agents.
+- **Contribution:** Engineered multi-layer vector graph query pipelines, local embedding index integration, and autonomous reasoning loops for sub-second retrieval without cloud dependencies.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🕸️ [graphify](https://github.com/Graphify-Labs/graphify)
+`Graphify-Labs/graphify` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
+
+- **The Breakthrough:** Turns codebases into persistent, queryable knowledge graphs for autonomous AI coding agents.
+- **Contribution:** Contributed to the core v8 architecture, optimizing god-node detection, multi-file dependency cluster algorithms, and graph query traversal speed.
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ [caveman](https://github.com/JuliusBrussee/caveman)
+`JuliusBrussee/caveman` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
+
+- **The Breakthrough:** High-throughput codebase analysis and AST scanning for developer repositories.
+- **Contribution:** Engineered deep repository scan heuristics and dependency profiling optimizations to eliminate bottlenecks across large monorepos.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/poorvith-mp?tab=repositories">
+    <img src="https://img.shields.io/badge/Browse_All_Repositories_on_GitHub_%E2%86%92-08090b?style=for-the-badge&logo=github&logoColor=cda03a&color=131417" alt="Browse Repositories"/>
+  </a>
+</div>
 
 ---
 
-## 🛠️ Technical Arsenal & Core Stack
+## 📊 GitHub Analytics & Activity
 
 <div align="center">
+
+<!-- Interactive Activity Graph in Carbon & Champagne Gold Theme -->
+<a href="https://github.com/poorvith-mp">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poorvith-mp&bg_color=08090b&color=cda03a&line=cda03a&point=eff0f1&area=true&hide_border=false&border_color=1f232b" width="100%" alt="Poorvith's GitHub Activity Graph" />
+</a>
+
+<br/><br/>
+
+<!-- Contribution Snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg" width="100%" alt="Poorvith M P GitHub Contribution Snake"/>
+</picture>
+
+<br/><br/>
+
+<!-- Streak Stats -->
+<a href="https://github.com/poorvith-mp">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=poorvith-mp&theme=transparent&background=08090b&border=1f232b&stroke=cda03a&ring=cda03a&fire=cda03a&currStreakNum=eff0f1&sideNums=eff0f1&currStreakLabel=cda03a&sideLabels=eff0f1&dates=8e929a" alt="GitHub Streak" width="95%" />
+</a>
+
+<br/><br/>
+
+### 🛠️ Technical Arsenal & Core Stack
 
 | Layer | Technologies |
 |---|---|
@@ -258,52 +366,35 @@ npx skills add poorvith-mp/skills-developer
 
 ---
 
-## 📈 Activity & Building in Public
-
-<div align="center">
-
-<!-- Interactive Activity Graph in Gold/Carbon Theme -->
-<a href="https://github.com/poorvith-mp">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poorvith-mp&bg_color=08090b&color=cda03a&line=cda03a&point=eff0f1&area=true&hide_border=false&border_color=1f232b" width="100%" alt="Poorvith's GitHub Activity Graph" />
-</a>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg" width="100%" alt="Poorvith M P GitHub Contribution Snake"/>
-</picture>
-
-<br/><br/>
-
-<a href="https://github.com/poorvith-mp">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=poorvith-mp&theme=transparent&background=08090b&border=1f232b&stroke=cda03a&ring=cda03a&fire=cda03a&currStreakNum=eff0f1&sideNums=eff0f1&currStreakLabel=cda03a&sideLabels=eff0f1&dates=8e929a" alt="GitHub Streak" width="95%" />
-</a>
-
-</div>
-
----
-
 ## 🤝 Connect & Collaborate
 
-I'm open to practical engineering collaborations, tools development, and discussing novel agent architectures.
+<table width="100%">
+<tr>
+<td width="48%" align="center" valign="middle">
 
-<div align="center">
-
+<!-- Profile Card Alt -->
 <a href="https://www.poorvithmp.com">
-  <img src="./assets/foresight-banner.png" width="100%" alt="I Foresight before small problems become expensive." />
+  <img src="./assets/poorvith-profile-card-alt.jpg" width="100%" alt="Poorvith M P — Profile Card" />
 </a>
 
-<br/><br/>
+</td>
+<td width="52%" align="center" valign="middle">
 
-<a href="mailto:contact@poorvithmp.com"><img src="https://img.shields.io/badge/Send_an_Email-contact@poorvithmp.com-cda03a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08090b" alt="Email"/></a>
-<a href="https://www.poorvithmp.com"><img src="https://img.shields.io/badge/Visit_Website-poorvithmp.com-131417?style=for-the-badge&logo=googlechrome&logoColor=cda03a&labelColor=08090b" alt="Website"/></a>
-<a href="https://linkedin.com/in/poorvithmp"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-poorvithmp-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=08090b" alt="LinkedIn"/></a>
-<a href="https://x.com/poorvith_mp"><img src="https://img.shields.io/badge/Follow_on_X-@poorvith__mp-131417?style=for-the-badge&logo=x&logoColor=white&labelColor=08090b" alt="X"/></a>
+<!-- Interactive Animated Collaboration Desk -->
+<a href="mailto:contact@poorvithmp.com">
+  <img src="./assets/connect-desk.svg" width="100%" alt="Engineering Collaboration Desk" />
+</a>
 
-<br/><br/>
+</td>
+</tr>
+</table>
 
-<sub>Crafted with the Platinum Product Theatre aesthetic • Carbon `#08090b` & Champagne Gold `#cda03a`</sub>
+<br/>
 
+<div align="center">
+  <a href="mailto:contact@poorvithmp.com"><img src="https://img.shields.io/badge/Direct_Desk-contact@poorvithmp.com-cda03a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08090b" alt="Email Direct"/></a>
+  <a href="https://www.poorvithmp.com"><img src="https://img.shields.io/badge/Visit_Portfolio-poorvithmp.com-131417?style=for-the-badge&logo=googlechrome&logoColor=cda03a&labelColor=08090b" alt="Website"/></a>
+  <a href="https://linkedin.com/in/poorvithmp"><img src="https://img.shields.io/badge/LinkedIn-poorvithmp-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=08090b" alt="LinkedIn"/></a>
+  <a href="https://x.com/poorvith_mp"><img src="https://img.shields.io/badge/Follow_X-@poorvith__mp-131417?style=for-the-badge&logo=x&logoColor=white&labelColor=08090b" alt="X"/></a>
+  <a href="https://github.com/poorvith-mp?tab=repositories"><img src="https://img.shields.io/badge/Browse_Repositories-poorvith--mp-cda03a?style=for-the-badge&logo=github&logoColor=08090b&labelColor=08090b" alt="GitHub Repos"/></a>
 </div>

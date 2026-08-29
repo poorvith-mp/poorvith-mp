@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GradeForge</title>
+  <desc id="desc">Calculate SGPA and CGPA without a spreadsheet.</desc>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Geist:wght@500;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap');
+      @keyframes targetPulse {
+        0%, 100% { r: 17px; opacity: 1; }
+        50% { r: 23px; opacity: 0.6; }
+      }
+      .target-point {
+        animation: targetPulse 2.5s ease-in-out infinite;
+      }
+    </style>
+    <pattern id="rule" width="1200" height="56" patternUnits="userSpaceOnUse">
+      <path d="M0 55h1200" stroke="#CAD8E5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#F7FAFC"/>
+  <rect width="1200" height="630" fill="url(#rule)" opacity=".6"/>
+  <text x="82" y="270" fill="#102A43" font-family="'Instrument Serif', Georgia, serif" font-size="94" font-weight="700">GradeForge</text>
+  <text x="86" y="340" fill="#246BCE" font-family="'Geist', sans-serif" font-size="28">Calculate SGPA and CGPA without a spreadsheet.</text>
+  
+  <path d="M775 480h86v-86h86v-86h86v-86h86" fill="none" stroke="#246BCE" stroke-width="18"/>
+  <path d="m790 495 310-300" stroke="#F4B942" stroke-width="10"/>
+  <circle cx="1100" cy="195" r="17" fill="#D95656" class="target-point"/>
+</svg>
