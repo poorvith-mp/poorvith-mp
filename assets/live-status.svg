@@ -30,7 +30,7 @@
   <g transform="translate(28, 26)">
     <circle cx="0" cy="0" r="4" fill="#cda03a" class="ring-pulse" stroke="#cda03a" stroke-width="1.5"/>
     <circle cx="0" cy="0" r="4" fill="#cda03a" class="pulse-dot"/>
-    <text x="14" y="4" fill="#cda03a" font-family="'Geist Mono', monospace" font-size="12" font-weight="700" letter-spacing="0.1em">FORESIGHT ENGINE</text>
+    <text x="14" y="4" fill="#cda03a" font-family="'Geist Mono', monospace" font-size="12" font-weight="700" letter-spacing="0.1em">FORESIGHT</text>
   </g>
   <text x="210" y="30" fill="#adafb4" font-family="'Geist Mono', monospace" font-size="12">|</text>
   <text x="228" y="31" fill="#f7f7f5" font-family="'Instrument Serif', serif" font-style="italic" font-size="16">Catching friction, leaks, and decay before they become expensive</text>
