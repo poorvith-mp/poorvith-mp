@@ -209,24 +209,24 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 </a>
 
 ### <img src="./assets/skillary-logo.svg" width="22" height="22" valign="middle" alt="Skillary Logo"/> [Skillary](https://github.com/poorvith-mp/skillary)
-> **The Universal AI Agent Skills Ecosystem — 315 modular agent instructions.**
+> **Deterministic AI agent skills index — 277 verified skills across 12 focused categories.**
 
-- **The Problem:** AI coding agents lack structured, deterministic domain knowledge, resulting in shallow answers and repetitive manual prompting across projects.
-- **The Solution:** A standardized repository index of 315 agent skills across 12 domain packages compatible with Claude Code, OpenAI Codex, Cursor, and Gemini CLI. Adheres strictly to the Agent Skills Specification.
-- **Tech Stack:** Markdown Architecture · Agent Skills Spec · Progressive Execution Index · pnpm Workspaces
+- **The Problem:** AI coding agents guess when they hit domain-specific tasks, and long tool descriptions get truncated silently by model contexts.
+- **The Solution:** A machine-indexed library of 277 agent skills across 12 category repos, plus standalone `skillary-agents` multi-agent orchestrator. Every description stays under 200 chars with explicit sibling boundaries and zero-indicator security checks.
+- **Tech Stack:** Agent Skills Spec · SQLite FTS5 Search · Python 3.12 · Claude Code · Codex · Cursor · Gemini CLI
 
 <p>
-  <a href="https://skillary.poorvithmp.com"><img src="https://img.shields.io/badge/Explore_Catalog-skillary.poorvithmp.com-cda03a?style=flat-square" alt="Explore Skillary"/></a>
   <a href="https://github.com/poorvith-mp/skillary"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="Skillary GitHub"/></a>
+  <a href="https://github.com/poorvith-mp/skillary-agents"><img src="https://img.shields.io/badge/Orchestrator-skillary--agents-cda03a?style=flat-square" alt="skillary-agents"/></a>
 </p>
 
 <details>
 <summary><strong>View architectural highlights</strong></summary>
 
-- 12 Categorized Domain Packages: Developer, Marketing, Design, Business, Finance, Writing, and more
-- Direct terminal installation via `npx skills add poorvith-mp/skills-[category]`
-- Built-in multi-sweep anti-AI tell standards and strict execution checklists
-- Seamless interoperability across leading agent frameworks
+- 12 Focused Category Repos: Developer (58), Marketing (44), Game Dev (26), Business (23), Design (21), Education (21), Agents (17), Personal (15), Writing (15), Sales (14), Finance (12), Legal (11)
+- Host-neutral orchestrator protocol in `skillary-agents` with 6 zero-slug roles and 8 cross-domain playbooks
+- Sub-millisecond full-text search via SQLite FTS5 (`dist/skills.db`) and machine-readable `dist/skills.json`
+- Direct terminal installation via `npx skills add poorvith-mp/skills-[category]` or Claude Code marketplace
 
 </details>
 
@@ -266,9 +266,9 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 
 ---
 
-## 🌐 Groundbreaking Open Source Contributions
+## 🌐 Open Source Contributions
 
-*Upstream core contributions, security hardening, and knowledge graph systems built for the ecosystem.*
+*Upstream core contributions, security audits, and parser fixes.*
 
 <br/>
 
@@ -279,7 +279,7 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 ### 🔒 [watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)
 `guillaumemeyer/watermarks-remover` • <img src="https://img.shields.io/badge/Role-Collaborator-cda03a?style=flat-square" alt="Collaborator"/>
 
-- **The Breakthrough:** Neutralizes invisible zero-width Unicode tracking vectors (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`) embedded by frontier LLM outputs.
+- **What it solves:** Neutralizes invisible zero-width Unicode tracking vectors (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`) embedded by frontier LLM outputs.
 - **Contribution:** Hardened the CLI pipeline and designed the AST-level regex sanitizer, transforming experimental code into a production-grade inspection engine with push collaborator access.
 
 </td>
@@ -288,7 +288,7 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 ### 🧠 [Knowledge-Agent](https://github.com/PrithvijitBose/Knowledge-Agent)
 `PrithvijitBose/Knowledge-Agent` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
 
-- **The Breakthrough:** Hybrid vector-graph retrieval architecture for autonomous local reasoning agents.
+- **What it solves:** Hybrid vector-graph retrieval architecture for autonomous local reasoning agents.
 - **Contribution:** Engineered multi-layer vector graph query pipelines, local embedding index integration, and autonomous reasoning loops for sub-second retrieval without cloud dependencies.
 
 </td>
@@ -299,7 +299,7 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 ### 🕸️ [graphify](https://github.com/Graphify-Labs/graphify)
 `Graphify-Labs/graphify` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
 
-- **The Breakthrough:** Turns codebases into persistent, queryable knowledge graphs for autonomous AI coding agents.
+- **What it solves:** Turns codebases into persistent, queryable knowledge graphs for autonomous AI coding agents.
 - **Contribution:** Contributed to the core v8 architecture, optimizing god-node detection, multi-file dependency cluster algorithms, and graph query traversal speed.
 
 </td>
@@ -308,7 +308,7 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 ### ⚡ [caveman](https://github.com/JuliusBrussee/caveman)
 `JuliusBrussee/caveman` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
 
-- **The Breakthrough:** High-throughput codebase analysis and AST scanning for developer repositories.
+- **What it solves:** High-throughput codebase analysis and AST scanning for developer repositories.
 - **Contribution:** Engineered deep repository scan heuristics and dependency profiling optimizations to eliminate bottlenecks across large monorepos.
 
 </td>
@@ -352,7 +352,7 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 
 <br/><br/>
 
-### 🛠️ Technical Arsenal & Core Stack
+### 🛠️ Technical Stack & Tools
 
 | Layer | Technologies |
 |---|---|
