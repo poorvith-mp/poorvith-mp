@@ -1,14 +1,14 @@
 <div align="center">
 
 <!-- Top Banner: Foresight Wide -->
-<a href="https://www.poorvithmp.com">
+<a href="https://poorvithmp.com">
   <img src="./assets/foresight-banner-wide.png" width="100%" alt="Poorvith M P — I Foresight before small problems become expensive." />
 </a>
 
 <br/><br/>
 
 <!-- Logo & Core Profile Identity -->
-<a href="https://www.poorvithmp.com">
+<a href="https://poorvithmp.com">
   <img src="./assets/logo-mark.svg" width="68" height="68" alt="PM Aperture Mark" />
 </a>
 
@@ -17,9 +17,9 @@
 ### <i>I Foresight before small problems become expensive.</i>
 
 <p align="center">
-  <strong>Tools Architect • AI Agent Systems • Local-First & Privacy Engineering</strong>
+  <strong>Open Source Builder / Student Builder • Local-First Privacy & AI Agent Systems</strong>
   <br/>
-  <span>Hassan, Karnataka, India</span>
+  <span>Student Developer • Indie Builder</span>
 </p>
 
 <!-- Live Animated System Indicator -->
@@ -29,7 +29,7 @@
 
 <!-- Identity Action Badges -->
 <p align="center">
-  <a href="https://www.poorvithmp.com"><img src="https://img.shields.io/badge/Portfolio-poorvithmp.com-cda03a?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=08090b" alt="Portfolio"/></a>
+  <a href="https://poorvithmp.com"><img src="https://img.shields.io/badge/Portfolio-poorvithmp.com-cda03a?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=08090b" alt="Portfolio"/></a>
   <a href="mailto:contact@poorvithmp.com"><img src="https://img.shields.io/badge/Direct_Desk-contact@poorvithmp.com-131417?style=for-the-badge&logo=gmail&logoColor=cda03a&labelColor=08090b" alt="Email"/></a>
   <a href="https://linkedin.com/in/poorvithmp"><img src="https://img.shields.io/badge/LinkedIn-poorvithmp-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=08090b" alt="LinkedIn"/></a>
   <a href="https://x.com/poorvith_mp"><img src="https://img.shields.io/badge/X-@poorvith__mp-131417?style=for-the-badge&logo=x&logoColor=white&labelColor=08090b" alt="X"/></a>
@@ -42,11 +42,11 @@
 
 ## 🏛️ About Me & The Foresight Principle
 
-I notice the friction people learn to tolerate, turn it into a focused tool, and keep the engineering decisions visible from first check to working proof.
+I'm a B.Tech Computer Science and Engineering student at Presidency University and an open-source builder. I look for the friction developers learn to tolerate, turn it into a focused tool, and keep every decision visible from the first check to the working code.
 
-Most software failures don't happen because of complex math — they happen because small warning signs were ignored: a credential pasted into an LLM prompt, a missing environment variable crashing a dev container, or semester grade calculations lost in rigid spreadsheets. 
+Most software failures don't start as big outages. They start when an API key gets pasted into an LLM prompt, a local `.env` drifts from what the repo expects, a stack trace gets filed without git or runtime context, or an agent runs with vague instructions.
 
-I build browser-local utilities, developer tools, and modular AI agent systems that solve these exact points of friction before they turn into costly emergencies.
+That's what **Foresight** means in my work: catch the failure mode on your own machine before it leaves your browser, breaks a build, or turns into an expensive cleanup.
 
 <br/>
 
@@ -54,19 +54,19 @@ I build browser-local utilities, developer tools, and modular AI agent systems t
 <tr>
 <td width="25%" align="center">
   <strong>🛡️ Foresight First</strong><br/>
-  <sub>Catching leaks, conflicts, and decay before staging or production</sub>
+  <sub>Catch leaks, runtime mismatches, and broken state before they leave your machine</sub>
 </td>
 <td width="25%" align="center">
   <strong>🔒 Zero-Exposure Privacy</strong><br/>
-  <sub>100% browser-local cryptography and offline-capable CLIs</sub>
+  <sub>100% browser-local Web Crypto workspaces and offline-first CLIs</sub>
 </td>
 <td width="25%" align="center">
   <strong>⚡ Useful Before Impressive</strong><br/>
-  <sub>Sub-3-second runtimes, zero-config setups, and honest limits</sub>
+  <sub>Fast local execution, zero-signup web apps, and direct npx commands</sub>
 </td>
 <td width="25%" align="center">
-  <strong>🔍 Visible Trade-Offs</strong><br/>
-  <sub>Open documentation, verified benchmarks, and zero telemetry traps</sub>
+  <strong>🔍 Honest Boundaries</strong><br/>
+  <sub>Open source repositories, clear permission scopes, and documented limits</sub>
 </td>
 </tr>
 </table>
