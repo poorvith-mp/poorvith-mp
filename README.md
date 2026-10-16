@@ -73,7 +73,7 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 
 ---
 
-## 🚀 My Contributions
+## 🚀 My Tools
 
 <table width="100%">
 <tr>
@@ -85,24 +85,25 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 </a>
 
 ### <img src="./assets/aiscrubber-logo.svg" width="22" height="22" valign="middle" alt="AIScrubber Logo"/> [AIScrubber](https://github.com/poorvith-mp/aiscrubber)
-> **Zero-exposure browser privacy desk, CLI, and Model Context Protocol (MCP) server.**
+> **Browser-local AI privacy scrubber (`3.0.0`), CLI, and MCP server (`@poorvithmp/aiscrubber 2.4.0` · Release `v2.3.0`).**
 
-- **The Problem:** Developers paste credentials, DB strings, and logs into frontier LLMs. Once sent to frontier models or public issue trackers, a secret cannot be un-sent.
-- **The Solution:** Operates 5 client-side engines: text credential scrubber (8 detector classes + regex), zero-exposure prompt roundtrip with `.aiscrub.json` reconstruction key, zero-width Unicode watermark remover, C2PA EXIF/metadata wiper, and canvas redactor.
-- **Tech Stack:** React 19 · TypeScript · Web Crypto API · Vite · Tailwind CSS · MCP Server · Node CLI
+- **The Problem:** Developers paste API keys, database URLs, and raw logs into LLM chats or public issues. Once a secret leaves your machine, you can't un-send it.
+- **The Solution:** Runs 5 client-side workspaces: deterministic credential scrubber (stable `{{TYPE_N}}` tokens), reversible prompt roundtrip with AES-GCM encrypted `.aiscrub.json` vaults, zero-width Unicode watermark cleaner, image EXIF stripper, and canvas redactor.
+- **Tech Stack:** React 19 · TypeScript · Web Crypto API · Tailwind CSS v4 · Vite · MCP Server · Node CLI
 
 <p>
   <a href="https://aiscrubber.poorvithmp.com"><img src="https://img.shields.io/badge/Launch_App-aiscrubber.poorvithmp.com-cda03a?style=flat-square" alt="Launch AIScrubber"/></a>
-  <a href="https://github.com/poorvith-mp/aiscrubber"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="AIScrubber GitHub"/></a>
+  <a href="https://www.npmjs.com/package/@poorvithmp/aiscrubber"><img src="https://img.shields.io/badge/npm-@poorvithmp/aiscrubber_2.4.0-cb3837?style=flat-square&logo=npm" alt="AIScrubber npm"/></a>
+  <a href="https://github.com/poorvith-mp/aiscrubber"><img src="https://img.shields.io/badge/Release-v2.3.0-131417?style=flat-square&logo=github" alt="AIScrubber GitHub"/></a>
 </p>
 
 <details>
 <summary><strong>View architectural highlights</strong></summary>
 
-- 100% in-browser Web Crypto execution with zero network telemetry
-- Claude & LLM invisible watermark remover (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`)
-- Terminal batch execution via `npx aiscrubber`
-- Native MCP server integration for Claude Desktop, Cursor, and Codex
+- 100% browser-local Web Crypto execution (`AES-GCM` encrypted session vaults) with zero telemetry
+- Invisible LLM watermark stripper (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`)
+- Terminal CLI (`npx @poorvithmp/aiscrubber`) and stdio MCP server (`aiscrubber-mcp`) for Claude Desktop, Cursor, and Codex
+- Client-side JPEG/PNG/WebP EXIF metadata stripper and brush/box image redactor
 
 </details>
 
@@ -115,24 +116,25 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 </a>
 
 ### <img src="./assets/safegen-logo.svg" width="22" height="22" valign="middle" alt="SafeGen Logo"/> [SafeGen](https://github.com/poorvith-mp/safegen)
-> **Browser-local cryptographic credential, passphrase, and pattern generator.**
+> **Browser-local credential generator (`v2.0.0`) & owner-approved agent action broker (`@poorvithmp/safegen 3.1.1` · `core 2.2.0`).**
 
-- **The Problem:** Online password generators transmit generated secrets across networks or rely on biased pseudo-random implementations.
-- **The Solution:** Uses browser `crypto.getRandomValues()` with rejection sampling to eliminate modulo bias. Provides 4 modes: Random Password, Memorable Passphrase, Numeric PIN, and Custom Pattern with live bit-entropy calculation.
-- **Tech Stack:** React 19 · TypeScript · Web Crypto API · Vite · Tailwind CSS v4 · GSAP
+- **The Problem:** Online password generators can't be audited while you type, and telling an AI agent "don't leak my token" isn't a real permission boundary.
+- **The Solution:** Combines a browser-local `crypto.getRandomValues()` credential generator (rejection sampling across Password, Passphrase, PIN, and Pattern modes) with a local owner-approved action broker CLI and MCP server for fixed GitHub and Cloudflare actions.
+- **Tech Stack:** React 19 · TypeScript · Web Crypto API · Node.js CLI & MCP · Tailwind CSS v4 · GSAP
 
 <p>
   <a href="https://safegen.poorvithmp.com"><img src="https://img.shields.io/badge/Launch_App-safegen.poorvithmp.com-cda03a?style=flat-square" alt="Launch SafeGen"/></a>
-  <a href="https://github.com/poorvith-mp/safegen"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="SafeGen GitHub"/></a>
+  <a href="https://www.npmjs.com/package/@poorvithmp/safegen"><img src="https://img.shields.io/badge/npm-@poorvithmp/safegen_3.1.1-cb3837?style=flat-square&logo=npm" alt="SafeGen npm"/></a>
+  <a href="https://github.com/poorvith-mp/safegen"><img src="https://img.shields.io/badge/Release-v2.0.0-131417?style=flat-square&logo=github" alt="SafeGen GitHub"/></a>
 </p>
 
 <details>
 <summary><strong>View architectural highlights</strong></summary>
 
-- Cryptographic randomness via Web Crypto API with zero server calls
-- Live bit-entropy scoring and offline brute-force crack time models
-- Local-only searchable copy desk up to 50 items with 1-click purge
-- Fully responsive tactile interface with GSAP micro-interactions
+- Unbiased cryptographic rejection sampling via Web Crypto API with live bit-entropy and offline crack-time scoring
+- Owner-approved local broker (`npx @poorvithmp/safegen`) and MCP server (`safegen-mcp`) keeping tokens inside a private OS session
+- Shared `@poorvithmp/safegen-core` (`2.2.0`) cryptographic engine
+- Local-only copy history with zero network calls or analytics
 
 </details>
 
@@ -147,24 +149,25 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 </a>
 
 ### <img src="./assets/gradeforge-logo.svg" width="22" height="22" valign="middle" alt="GradeForge Logo"/> [GradeForge](https://github.com/poorvith-mp/gradeforge)
-> **Credit-weighted semester GPA engine & Target What-If degree planner.**
+> **Offline-first credit-weighted SGPA/CGPA engine & Target What-If planner (Release `v1.0.0` · PWA Workspace `2.1.0`).**
 
-- **The Problem:** University grading scales vary widely. Ad-filled online calculators fail on custom credits, multi-semester weighting, and forward-looking GPA target forecasting.
-- **The Solution:** Preloaded with university presets (VTU CBCS, Anna University, Mumbai University, KTU, JNTU, US 4.0) plus a custom scale builder. Includes a Target CGPA What-If planner calculating exact required semester GPAs.
-- **Tech Stack:** React 18 · TypeScript · Vite · Tailwind CSS · LocalStorage Persistence
+- **The Problem:** University grading scales vary widely, and ad-heavy online calculators break on custom credits, multi-semester weighting, or forward-looking CGPA planning.
+- **The Solution:** Preloaded with 8 university and international grading presets (VTU 10-Point, Anna University, Mumbai University, KTU, JNTU, UGC 10-Point, US 4.0, ECTS) plus a custom scale builder and Target CGPA What-If planner.
+- **Tech Stack:** React 18 · TypeScript · Vite PWA · Tailwind CSS · LocalStorage Persistence
 
 <p>
   <a href="https://gradeforge.poorvithmp.com"><img src="https://img.shields.io/badge/Launch_App-gradeforge.poorvithmp.com-cda03a?style=flat-square" alt="Launch GradeForge"/></a>
-  <a href="https://github.com/poorvith-mp/gradeforge"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="GradeForge GitHub"/></a>
+  <a href="https://poorvithmp.com/products/gradeforge"><img src="https://img.shields.io/badge/Product_Page-poorvithmp.com-131417?style=flat-square" alt="GradeForge Product Page"/></a>
+  <a href="https://github.com/poorvith-mp/gradeforge"><img src="https://img.shields.io/badge/Release-v1.0.0-131417?style=flat-square&logo=github" alt="GradeForge GitHub"/></a>
 </p>
 
 <details>
 <summary><strong>View architectural highlights</strong></summary>
 
-- Multi-semester credit-weighted SGPA and cumulative CGPA calculation
-- Target CGPA 'What-If' planner for future semester planning
-- CSV data export, JSON backup, and clean printable transcript renderer
-- 100% offline browser storage with zero account signups
+- Multi-semester credit-weighted SGPA and cumulative CGPA calculation with complete formula visibility
+- Target CGPA What-If planner showing the exact semester average needed across remaining credits
+- Offline-first Progressive Web App (`2.1.0`) with JSON backup/restore, CSV export, and print-clean academic summary
+- 100% browser-local storage with zero signups or tracking
 
 </details>
 
@@ -172,29 +175,30 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 <td width="50%" valign="top">
 
 <!-- EnvPreflight Card (Row 2, Right) -->
-<a href="https://github.com/poorvith-mp/envpreflight">
+<a href="https://envpreflight.poorvithmp.com">
   <img src="./assets/envpreflight-cover.svg" width="100%" alt="EnvPreflight Cover"/>
 </a>
 
 ### <img src="./assets/envpreflight-logo.svg" width="22" height="22" valign="middle" alt="EnvPreflight Logo"/> [EnvPreflight](https://github.com/poorvith-mp/envpreflight)
-> **Sub-3-second local runtime, service, and environment readiness auditor.**
+> **Local runtime, Docker service, port, and `.env` readiness auditor (`@poorvithmp/envpreflight 1.1.0` · Release `v1.0.0`).**
 
-- **The Problem:** Developers clone a repository and hit cryptic runtime mismatches, missing `.env` variables, stopped database daemons, or port collisions.
-- **The Solution:** Automatically inspects project manifests (`.nvmrc`, `package.json`, `pyproject.toml`, `go.mod`, `docker-compose.yml`, `.env.example`) and generates single-line copyable fixes.
-- **Tech Stack:** TypeScript · Node.js · pnpm Workspaces · tsup · Vitest · MCP Protocol · VS Code Extension
+- **The Problem:** Developers clone a repo and waste an hour debugging an app bug that's actually a Node/Python version mismatch, a missing `.env` key, or a stopped Docker container.
+- **The Solution:** Inspects project manifests (`package.json`, `.nvmrc`, `pyproject.toml`, `go.mod`, `Cargo.toml`, `docker-compose.yml`, `.env.example`) and reports exact fixes across CLI, MCP, VS Code, and GitHub Actions.
+- **Tech Stack:** TypeScript · Node.js · MCP Server · VS Code Extension · GitHub Action · pnpm Monorepo
 
 <p>
-  <a href="https://github.com/poorvith-mp/envpreflight"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="EnvPreflight GitHub"/></a>
-  <a href="https://www.npmjs.com/package/@envpreflight/cli"><img src="https://img.shields.io/badge/npm-@envpreflight/cli-cb3837?style=flat-square&logo=npm" alt="npm package"/></a>
+  <a href="https://envpreflight.poorvithmp.com"><img src="https://img.shields.io/badge/Subdomain-envpreflight.poorvithmp.com-cda03a?style=flat-square" alt="EnvPreflight Subdomain"/></a>
+  <a href="https://www.npmjs.com/package/@poorvithmp/envpreflight"><img src="https://img.shields.io/badge/npm-@poorvithmp/envpreflight_1.1.0-cb3837?style=flat-square&logo=npm" alt="npm package"/></a>
+  <a href="https://www.npmjs.com/package/@poorvithmp/envpreflight-mcp"><img src="https://img.shields.io/badge/MCP-envpreflight--mcp_1.1.0-131417?style=flat-square" alt="MCP package"/></a>
 </p>
 
 <details>
 <summary><strong>View architectural highlights</strong></summary>
 
-- Multi-runtime validation for Node.js, Python, Go, and Rust
-- Background daemon checks: Postgres (5432), Redis (6379), MySQL (3306), MongoDB (27017), Docker
-- Strict zero-leakage `.env` variable key auditor (secret values are never read or logged)
-- Model Context Protocol (MCP) server for Claude Code and Cursor agents
+- Multi-runtime validation for Node.js, Python, Go, Rust, Java, and Docker Engine
+- TCP service reachability and port collision checks for PostgreSQL (5432), Redis (6379), MySQL (3306), and MongoDB (27017)
+- Zero-leakage `.env` key parity auditor (compares key names only; secret values are never read or logged)
+- Published CLI (`@poorvithmp/envpreflight`), MCP server (`@poorvithmp/envpreflight-mcp`), VS Code extension, and composite GitHub Action (`poorvith-mp/envpreflight@v1`)
 
 </details>
 
@@ -204,29 +208,30 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 <td width="50%" valign="top">
 
 <!-- Skillary Card (Row 3, Left) -->
-<a href="https://skillary.poorvithmp.com">
+<a href="https://poorvithmp.com/products/skillary">
   <img src="./assets/skillary-cover.svg" width="100%" alt="Skillary Cover"/>
 </a>
 
-### <img src="./assets/skillary-logo.svg" width="22" height="22" valign="middle" alt="Skillary Logo"/> [Skillary](https://github.com/poorvith-mp/skillary)
-> **Deterministic AI agent skills index — 277 verified skills across 12 focused categories.**
+### <img src="./assets/skillary-logo.svg" width="22" height="22" valign="middle" alt="Skillary Logo"/> [Skillary](https://github.com/poorvith-mp/skillary) & [skillary-agents](https://github.com/poorvith-mp/skillary-agents)
+> **Deterministic AI agent skills registry (`v4.1.0`) — 277 skills across 12 category repos + `skillary-agents` (`v4.1.0`) crew protocol.**
 
-- **The Problem:** AI coding agents guess when they hit domain-specific tasks, and long tool descriptions get truncated silently by model contexts.
-- **The Solution:** A machine-indexed library of 277 agent skills across 12 category repos, plus standalone `skillary-agents` multi-agent orchestrator. Every description stays under 200 chars with explicit sibling boundaries and zero-indicator security checks.
-- **Tech Stack:** Agent Skills Spec · SQLite FTS5 Search · Python 3.12 · Claude Code · Codex · Cursor · Gemini CLI
+- **The Problem:** Loading hundreds of skills into a coding agent bloats the context window, while vague instructions make multi-step tasks drift.
+- **The Solution:** `Skillary` (`v4.1.0`) indexes 277 focused agent skills across 12 category repositories with a zero-dependency `skillary.py` CLI, paired with `skillary-agents` (`v4.1.0`) and its `crew.py` CLI for 6-role, 8-playbook multi-agent handoffs.
+- **Tech Stack:** Agent Skills Spec · Python 3.12 · SQLite FTS5 · Claude Code · Codex · Cursor · Windsurf · Gemini CLI
 
 <p>
-  <a href="https://github.com/poorvith-mp/skillary"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="Skillary GitHub"/></a>
-  <a href="https://github.com/poorvith-mp/skillary-agents"><img src="https://img.shields.io/badge/Orchestrator-skillary--agents-cda03a?style=flat-square" alt="skillary-agents"/></a>
+  <a href="https://poorvithmp.com/products/skillary"><img src="https://img.shields.io/badge/Catalogue-poorvithmp.com/products/skillary-cda03a?style=flat-square" alt="Skillary Catalogue"/></a>
+  <a href="https://github.com/poorvith-mp/skillary/releases/tag/v4.1.0"><img src="https://img.shields.io/badge/Skillary-v4.1.0-131417?style=flat-square&logo=github" alt="Skillary v4.1.0"/></a>
+  <a href="https://github.com/poorvith-mp/skillary-agents/releases/tag/v4.1.0"><img src="https://img.shields.io/badge/skillary--agents-v4.1.0-131417?style=flat-square&logo=github" alt="skillary-agents v4.1.0"/></a>
 </p>
 
 <details>
 <summary><strong>View architectural highlights</strong></summary>
 
-- 12 Focused Category Repos: Developer (58), Marketing (44), Game Dev (26), Business (23), Design (21), Education (21), Agents (17), Personal (15), Writing (15), Sales (14), Finance (12), Legal (11)
-- Host-neutral orchestrator protocol in `skillary-agents` with 6 zero-slug roles and 8 cross-domain playbooks
-- Sub-millisecond full-text search via SQLite FTS5 (`dist/skills.db`) and machine-readable `dist/skills.json`
-- Direct terminal installation via `npx skills add poorvith-mp/skills-[category]` or Claude Code marketplace
+- 12 Category Repos: Developer (58), Marketing (44), Game Dev (26), Business (23), Design (21), Education (21), Agents (17), Personal (15), Writing (15), Sales (14), Finance (12), Legal (11)
+- Zero-dependency `python3 skillary.py` CLI for searching, inspecting, recommending, and installing skills across 6 agent hosts
+- `skillary-agents` (`v4.1.0`) orchestration companion with `python3 crew.py`, 6 role templates, and 8 playbooks
+- Sub-millisecond SQLite FTS5 index (`dist/skills.db`) and machine-readable `dist/skills.json`
 
 </details>
 
@@ -234,29 +239,30 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 <td width="50%" valign="top">
 
 <!-- Crashpack Card (Row 3, Right) -->
-<a href="https://github.com/poorvith-mp/crashpack">
+<a href="https://crashpack.poorvithmp.com">
   <img src="./assets/crashpack-cover.svg" width="100%" alt="Crashpack Cover"/>
 </a>
 
 ### <img src="./assets/crashpack-logo.svg" width="22" height="22" valign="middle" alt="Crashpack Logo"/> [Crashpack](https://github.com/poorvith-mp/crashpack)
-> **Everything your bug report needs, in one command. Sub-2-second local diagnostic collector.**
+> **Local-first CLI bug report generator & CI failure bundler (`crashpack 0.4.2` · Release `v0.4.2`).**
 
-- **The Problem:** Filing a useful bug report takes 10 minutes of manually gathering logs, git states, package versions, OS info, and env config — developers skip half of it, leaving issues unactionable.
-- **The Solution:** A zero-config CLI that bundles complete runtime context, sanitizes sensitive secrets with zero network calls, and copies a single markdown report ready to paste into GitHub or AI agents.
-- **Tech Stack:** TypeScript · Node.js · AST Sanitizer · Vitest · tsup · CLI
+- **The Problem:** A raw stack trace leaves out git state, runtime versions, and recent logs, but pasting raw terminal output into a bug report leaks credentials.
+- **The Solution:** Collects local diagnostic context, applies pattern + Shannon-entropy secret redaction, deduplicates error hashes, and writes a reviewable Markdown or JSON report locally or via its composite GitHub Action.
+- **Tech Stack:** TypeScript · Node.js · GitHub Actions · Commander · Execa · Vitest · tsup
 
 <p>
-  <a href="https://github.com/poorvith-mp/crashpack"><img src="https://img.shields.io/badge/Source-GitHub-131417?style=flat-square&logo=github" alt="Crashpack GitHub"/></a>
-  <a href="https://www.npmjs.com/package/crashpack"><img src="https://img.shields.io/badge/npm-crashpack-cb3837?style=flat-square&logo=npm" alt="npm package"/></a>
+  <a href="https://crashpack.poorvithmp.com"><img src="https://img.shields.io/badge/Subdomain-crashpack.poorvithmp.com-cda03a?style=flat-square" alt="Crashpack Subdomain"/></a>
+  <a href="https://www.npmjs.com/package/crashpack"><img src="https://img.shields.io/badge/npm-crashpack_0.4.2-cb3837?style=flat-square&logo=npm" alt="npm package"/></a>
+  <a href="https://github.com/poorvith-mp/crashpack/releases/tag/v0.4.2"><img src="https://img.shields.io/badge/Release-v0.4.2-131417?style=flat-square&logo=github" alt="Crashpack GitHub"/></a>
 </p>
 
 <details>
 <summary><strong>View architectural highlights</strong></summary>
 
-- Zero network calls: completely offline execution with zero telemetry
-- Mandatory redaction pipeline: auto-strips AWS keys, Stripe tokens, private keys, and passwords
-- One-click GitHub Issue pre-fill (`npx crashpack --issue`)
-- Command wrapper mode (`npx crashpack --wrap "command"`) capturing failed process buffers
+- Pattern + Shannon-entropy redaction pipeline stripping AWS keys, GitHub/Stripe tokens, JWTs, private keys, and `.env` secrets
+- Composite GitHub Action (`poorvith-mp/crashpack@v0.4.2`) for automatic CI failure bundling and artifact upload
+- Error-hash deduplication and offline sourcemap stack frame resolution
+- Explicit opt-in clipboard (`--copy`) and reviewed GitHub issue creation (`--issue`)
 
 </details>
 
