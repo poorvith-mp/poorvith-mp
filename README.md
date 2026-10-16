@@ -274,7 +274,7 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 
 ## 🌐 Open Source Contributions
 
-*Upstream core contributions, security audits, and parser fixes.*
+*Upstream collaborator engineering, security hardening, and cross-platform architecture contributions.*
 
 <br/>
 
@@ -285,8 +285,8 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 ### 🔒 [watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)
 `guillaumemeyer/watermarks-remover` • <img src="https://img.shields.io/badge/Role-Collaborator-cda03a?style=flat-square" alt="Collaborator"/>
 
-- **What it solves:** Neutralizes invisible zero-width Unicode tracking vectors (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`) embedded by frontier LLM outputs.
-- **Contribution:** Hardened the CLI pipeline and designed the AST-level regex sanitizer, transforming experimental code into a production-grade inspection engine with push collaborator access.
+- **What it solves:** Strips invisible zero-width Unicode tracking vectors (`\u200B`, `\u200C`, `\u200D`, `\uFEFF`, `\u2060`) and C2PA metadata embedded in LLM outputs and media.
+- **Contributions:** Hardened the CLI and AST-level regex sanitizer (`#201`), added `--exclude` glob filters and batch processing (`#317`), built the pre-commit hook and GitHub Action workflow (`#328`), added `pyproject.toml` config support (`#338`), and delivered `.docx`/`.pdf` document watermark stripping (`#369`, `#371`, `#384`) with collaborator push access.
 
 </td>
 <td width="50%" valign="top">
@@ -294,8 +294,8 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 ### 🧠 [Knowledge-Agent](https://github.com/PrithvijitBose/Knowledge-Agent)
 `PrithvijitBose/Knowledge-Agent` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
 
-- **What it solves:** Hybrid vector-graph retrieval architecture for autonomous local reasoning agents.
-- **Contribution:** Engineered multi-layer vector graph query pipelines, local embedding index integration, and autonomous reasoning loops for sub-second retrieval without cloud dependencies.
+- **What it solves:** Hybrid vector-graph retrieval and autonomous local reasoning pipeline for knowledge agents.
+- **Contributions:** Engineered multi-layer vector-graph query pipelines (`#28`–`#31`), local embedding index caching (`#35`, `#36`), deterministic citation grounding (`#41`, `#45`), and Windows/POSIX path normalization for cross-platform retrieval (`#49`).
 
 </td>
 </tr>
@@ -305,8 +305,8 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 ### 🕸️ [graphify](https://github.com/Graphify-Labs/graphify)
 `Graphify-Labs/graphify` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
 
-- **What it solves:** Turns codebases into persistent, queryable knowledge graphs for autonomous AI coding agents.
-- **Contribution:** Contributed to the core v8 architecture, optimizing god-node detection, multi-file dependency cluster algorithms, and graph query traversal speed.
+- **What it solves:** Turns multi-language codebases and markdown corpora into persistent, queryable knowledge graphs for AI coding agents.
+- **Contributions:** Contributed to core AST extraction and community clustering (`#1824`), god-node detection heuristics, and multi-repository incremental graph rebuilds (`#3233`–`#3235`).
 
 </td>
 <td width="50%" valign="top">
@@ -314,8 +314,28 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 ### ⚡ [caveman](https://github.com/JuliusBrussee/caveman)
 `JuliusBrussee/caveman` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
 
-- **What it solves:** High-throughput codebase analysis and AST scanning for developer repositories.
-- **Contribution:** Engineered deep repository scan heuristics and dependency profiling optimizations to eliminate bottlenecks across large monorepos.
+- **What it solves:** Token-efficient prompt compression and repository scanning for coding agents.
+- **Contributions:** Engineered cross-platform hook and path normalization fixes (`#187`), Windows test-runner compatibility, and high-throughput monorepo scan heuristics.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 [oppia-web-developer-docs](https://github.com/oppia/oppia-web-developer-docs)
+`oppia/oppia-web-developer-docs` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
+
+- **What it solves:** Official developer onboarding, CI troubleshooting, and architecture documentation for Oppia Web.
+- **Contributions:** Improved contributor setup verification and cross-platform developer environment documentation (`#527`, `#544`).
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [openbot](https://github.com/nightly-labs/openbot)
+`nightly-labs/openbot` • <img src="https://img.shields.io/badge/Role-Contributor-131417?style=flat-square" alt="Contributor"/>
+
+- **What it solves:** Modular autonomous agent runtime and tool execution harness.
+- **Contributions:** Hardened tool-call validation and runtime error recovery in the agent execution loop (`#614`).
 
 </td>
 </tr>
