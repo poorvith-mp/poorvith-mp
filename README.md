@@ -351,25 +351,9 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 
 ---
 
-## 📊 GitHub Analytics & Activity
+## 📊 GitHub Streak & Technical Stack
 
 <div align="center">
-
-<!-- Interactive Activity Graph in Carbon & Champagne Gold Theme -->
-<a href="https://github.com/poorvith-mp">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poorvith-mp&bg_color=08090b&color=cda03a&line=cda03a&point=eff0f1&area=true&hide_border=false&border_color=1f232b" width="100%" alt="Poorvith's GitHub Activity Graph" />
-</a>
-
-<br/><br/>
-
-<!-- Contribution Snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/poorvith-mp/poorvith-mp/output/contribution-snake-dark.svg" width="100%" alt="Poorvith M P GitHub Contribution Snake"/>
-</picture>
-
-<br/><br/>
 
 <!-- Streak Stats -->
 <a href="https://github.com/poorvith-mp">
@@ -399,7 +383,7 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 <td width="48%" align="center" valign="middle">
 
 <!-- Profile Card Alt -->
-<a href="https://www.poorvithmp.com">
+<a href="https://poorvithmp.com">
   <img src="./assets/poorvith-profile-card-alt.jpg" width="100%" alt="Poorvith M P — Profile Card" />
 </a>
 
@@ -419,7 +403,7 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 
 <div align="center">
   <a href="mailto:contact@poorvithmp.com"><img src="https://img.shields.io/badge/Direct_Desk-contact@poorvithmp.com-cda03a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08090b" alt="Email Direct"/></a>
-  <a href="https://www.poorvithmp.com"><img src="https://img.shields.io/badge/Visit_Portfolio-poorvithmp.com-131417?style=for-the-badge&logo=googlechrome&logoColor=cda03a&labelColor=08090b" alt="Website"/></a>
+  <a href="https://poorvithmp.com"><img src="https://img.shields.io/badge/Visit_Portfolio-poorvithmp.com-131417?style=for-the-badge&logo=googlechrome&logoColor=cda03a&labelColor=08090b" alt="Website"/></a>
   <a href="https://linkedin.com/in/poorvithmp"><img src="https://img.shields.io/badge/LinkedIn-poorvithmp-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=08090b" alt="LinkedIn"/></a>
   <a href="https://x.com/poorvith_mp"><img src="https://img.shields.io/badge/Follow_X-@poorvith__mp-131417?style=for-the-badge&logo=x&logoColor=white&labelColor=08090b" alt="X"/></a>
   <a href="https://github.com/poorvith-mp?tab=repositories"><img src="https://img.shields.io/badge/Browse_Repositories-poorvith--mp-cda03a?style=for-the-badge&logo=github&logoColor=08090b&labelColor=08090b" alt="GitHub Repos"/></a>
