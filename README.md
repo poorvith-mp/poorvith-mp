@@ -205,9 +205,9 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" width="100%" valign="top">
 
-<!-- Skillary Card (Row 3, Left) -->
+<!-- Skillary Card (Row 3, Full Width) -->
 <a href="https://poorvithmp.com/products/skillary">
   <img src="./assets/skillary-cover.svg" width="100%" alt="Skillary Cover"/>
 </a>
@@ -232,37 +232,6 @@ That's what **Foresight** means in my work: catch the failure mode on your own m
 - Zero-dependency `python3 skillary.py` CLI for searching, inspecting, recommending, and installing skills across 6 agent hosts
 - `skillary-agents` (`v4.1.0`) orchestration companion with `python3 crew.py`, 6 role templates, and 8 playbooks
 - Sub-millisecond SQLite FTS5 index (`dist/skills.db`) and machine-readable `dist/skills.json`
-
-</details>
-
-</td>
-<td width="50%" valign="top">
-
-<!-- Crashpack Card (Row 3, Right) -->
-<a href="https://crashpack.poorvithmp.com">
-  <img src="./assets/crashpack-cover.svg" width="100%" alt="Crashpack Cover"/>
-</a>
-
-### <img src="./assets/crashpack-logo.svg" width="22" height="22" valign="middle" alt="Crashpack Logo"/> [Crashpack](https://github.com/poorvith-mp/crashpack)
-> **Local-first CLI bug report generator & CI failure bundler (`crashpack 0.4.2` · Release `v0.4.2`).**
-
-- **The Problem:** A raw stack trace leaves out git state, runtime versions, and recent logs, but pasting raw terminal output into a bug report leaks credentials.
-- **The Solution:** Collects local diagnostic context, applies pattern + Shannon-entropy secret redaction, deduplicates error hashes, and writes a reviewable Markdown or JSON report locally or via its composite GitHub Action.
-- **Tech Stack:** TypeScript · Node.js · GitHub Actions · Commander · Execa · Vitest · tsup
-
-<p>
-  <a href="https://crashpack.poorvithmp.com"><img src="https://img.shields.io/badge/Subdomain-crashpack.poorvithmp.com-cda03a?style=flat-square" alt="Crashpack Subdomain"/></a>
-  <a href="https://www.npmjs.com/package/crashpack"><img src="https://img.shields.io/badge/npm-crashpack_0.4.2-cb3837?style=flat-square&logo=npm" alt="npm package"/></a>
-  <a href="https://github.com/poorvith-mp/crashpack/releases/tag/v0.4.2"><img src="https://img.shields.io/badge/Release-v0.4.2-131417?style=flat-square&logo=github" alt="Crashpack GitHub"/></a>
-</p>
-
-<details>
-<summary><strong>View architectural highlights</strong></summary>
-
-- Pattern + Shannon-entropy redaction pipeline stripping AWS keys, GitHub/Stripe tokens, JWTs, private keys, and `.env` secrets
-- Composite GitHub Action (`poorvith-mp/crashpack@v0.4.2`) for automatic CI failure bundling and artifact upload
-- Error-hash deduplication and offline sourcemap stack frame resolution
-- Explicit opt-in clipboard (`--copy`) and reviewed GitHub issue creation (`--issue`)
 
 </details>
 
